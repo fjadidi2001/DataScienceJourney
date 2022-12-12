@@ -65,6 +65,10 @@ while True:
             cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
             cv2.putText(frame, name, (x, y), cv2.FONT_HERSHEY_SIMPLEX,
                         0.75, (0, 255, 0), 2)
+    window_name=""
+    #cv2.namedWindow(window_name, cv2.WND_PROP_FULLSCREEN)
+    #cv2.moveWindow(window_name, screen.x - 1, screen.y - 1)
+    #cv2.setWindowProperty("my test", cv2.WND_PROP_FULLSCREEN,cv2.WINDOW_FULLSCREEN)
     cv2.imshow("Frame", frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
