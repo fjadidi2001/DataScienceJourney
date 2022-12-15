@@ -2,6 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/8th/dlib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/face_recognition" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/fifth/face_recognition" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/new/Webcam-Face-Detect" vcs="Git" />
   </component>

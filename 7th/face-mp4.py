@@ -11,15 +11,27 @@ input_movie = cv2.VideoCapture(0)
 #output_movie = cv2.VideoWriter('output.avi', fourcc, 29.97, (640, 360))
 
 # Load some sample pictures and learn how to recognize them.
-lmm_image = face_recognition.load_image_file("/home/jadidi/PycharmProjects/BachlorProject/7th/fateme-jadidi.jpg")
-lmm_face_encoding = face_recognition.face_encodings(lmm_image)[0]
+fj_image = face_recognition.load_image_file("/home/jadidi/PycharmProjects/BachlorProject/7th/fateme-jadidi.jpg")
+fj_face_encoding = face_recognition.face_encodings(fj_image)[0]
 
-al_image = face_recognition.load_image_file("NR_1.jpg")
-al_face_encoding = face_recognition.face_encodings(al_image)[0]
+NR_image = face_recognition.load_image_file("NR_1.jpg")
+NR_face_encoding = face_recognition.face_encodings(NR_image)[0]
+
+AA_image = face_recognition.load_image_file("AA_2.jpg")
+AA_face_encoding = face_recognition.face_encodings(AA_image)[0]
+
+AM_image = face_recognition.load_image_file("AM_2.jpg")
+AM_face_encoding = face_recognition.face_encodings(AM_image)[0]
+
+XX_image = face_recognition.load_image_file("XX_2.jpg")
+XX_face_encoding = face_recognition.face_encodings(XX_image)[0]
+
+
+
 
 known_faces = [
-    lmm_face_encoding,
-    al_face_encoding
+    fj_face_encoding,
+    NR_face_encoding
 ]
 
 # Initialize some variables
@@ -56,7 +68,7 @@ while True:
         if match[0]:
             name = "fatemeh jadidi"
         elif match[1]:
-            name = "Mr Nader"
+            name = "Mr amir"
 
         face_names.append(name)
 
