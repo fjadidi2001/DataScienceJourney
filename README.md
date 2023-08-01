@@ -8,4 +8,4 @@ The topic of my project was to
 <br>
 
 <br>
- I got a 20 score in this lesson.
+ I got a 20 from 20 score in this lesson.
