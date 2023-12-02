@@ -1,3 +1,4 @@
+# EXERCISE 2.1
 def minimum(xs):
     m = xs[0]
     for i in xs:
