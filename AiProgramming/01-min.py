@@ -1,7 +1,7 @@
 def minimum(xs):
     m = xs[0]
-    for i in range(xs):
-        if m < xs:
+    for i in xs:
+        if m > i:
             m = i
     return m 
 
