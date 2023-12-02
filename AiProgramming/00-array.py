@@ -5,7 +5,7 @@ def maximum(xs):
             m = x
     return m
 
-data = [0,1,2,3,4,5,6,7]
+data = [0, 120, 2, 55, 4, 5, 6, 7]
 
 t = maximum(data)
 print(t)
