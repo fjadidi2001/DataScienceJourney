@@ -1,3 +1,4 @@
+# EXAMPLE 2.9: THE ARRAY.PY PROGRAM
 def maximum(xs):
     m = xs[0]
     for x in xs:
