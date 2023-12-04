@@ -1,5 +1,5 @@
 # EXERCISE 2.2
-def sorti(xs):
+def sortarray(xs):
     m = xs[0]
     for i in xs:
         if m > i:
