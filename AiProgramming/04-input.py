@@ -1,4 +1,4 @@
-
+# EXERCISE 2.4
 print('Your name:')
 name = input()
 print('Youur age:')
