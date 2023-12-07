@@ -39,3 +39,5 @@ Four different categories of ML:
         - most popular alghorithem: self-­training, generative methods, mixture models, and graph-­based methods.
         - can typically be used in speech analysis, internet content classification, and protein sequence classification.
     4. Reinforcement learning
+        - algorithms learn to find, through trial and error, which actions can yield the maximum cumulative reward
+        - used in robotics, video gaming, and navigation
