@@ -13,6 +13,29 @@
     7. R, 
     8. Julia, 
     9. Go
+# Python
+1. general-­purpose programming language
+2. easy to use
+3. can automatically figure out the most appropriate variable type
+4. interpreted
+5. high-level programming language
+
+# Integrated Development and Learning Environment (IDLE)
+1. Notepad++
+2. TextPad
+3. Sublime Text
+4. Atom
+5. Pycharm
+6. Spyder
+7. Visual Studio Code
+8. Jupyter
+9. Google Colaboratory
+10. Kaggle Notebook
+11. Baidu’s AI Studio
+12. Deepnote
+13. Binder
+14. Paperspace Gradient
+15. Anaconda 
 
 In machine learning and deep learning, the most commonly used data file format is **Comma Separated Values (CSV)**.
 <br>
