@@ -24,3 +24,20 @@ The easiest way to create a CSV file and read a CSV file is to use the Pandas li
     - The UK Data Service
     - World Bank Open Data
 
+## Python AI Frameworks
+    - Scikit-­Learn
+        1. supervised learning(algorithms for classification and regression)
+        2. unsupervised learning(clustering)
+
+    - Google’s TensorFlow(is widely used for image classification, object detection, image segmentation, pose detection, text sentiment, language translation, speech recognition, and so on)       
+
+    - Keras (standard interface for the TensorFlow)
+    - Facebook’s PyTorch(based on the Torch library)
+    - Caffe2 (Convolutional Architecture for Fast Feature Embedding)
+    - Baidu’s Paddle Paddle
+    - H2O
+    - DeepMind
+    - OpenAI
+    - Apache MXNet
+    - OpenCV (Open Source Computer Vision Library)
+    - Scikit-­image 
