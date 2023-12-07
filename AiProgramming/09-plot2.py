@@ -2,7 +2,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-x = np.linspace(-np.pi,np.pi, 50)
+x = np.linspace(-np.pi,np.pi, 50) # with 50 data points in between
 y1 = np.sin(x)
 y2 = np.cos(x)
 plt.plot(x, y1, color = 'blue', marker = "s", label='Sin')
