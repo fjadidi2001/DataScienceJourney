@@ -28,8 +28,8 @@ Four different categories of ML:
         - fed with unlabeled data
         - algorithms will study the data and divide it into groups according to features
         - used for clustering and association
-            - clustering: used for clustering and association
-                - used for clustering and association
+            - clustering: dividing the data into groups
+                - K-means clustering
             - association: means to discover rules that describe the majority portion of the data.
                 - Apriori algorithm
     3. Semi-Supervised Learning
