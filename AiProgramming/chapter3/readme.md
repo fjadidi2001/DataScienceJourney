@@ -33,4 +33,9 @@ Four different categories of ML:
             - association: means to discover rules that describe the majority portion of the data.
                 - Apriori algorithm
     3. Semi-Supervised Learning
+        - both labeled data and unlabeled data are used
+        - The basic procedure is to group the data into different clusters using an unsupervised learning algorithm
+        - then using the existing labeled data to label the rest of the unlabeled data.
+        - most popular alghorithem: self-­training, generative methods, mixture models, and graph-­based methods.
+        - can typically be used in speech analysis, internet content classification, and protein sequence classification.
     4. Reinforcement learning
