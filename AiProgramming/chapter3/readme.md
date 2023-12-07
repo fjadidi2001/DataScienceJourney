@@ -25,5 +25,12 @@ Four different categories of ML:
                 - regression: the given data, fit the data with a model to get the best-­fit parameters
                     - linear regression, logistic regression, and polynomial regression.
     2. Unsupervised Learning
+        - fed with unlabeled data
+        - algorithms will study the data and divide it into groups according to features
+        - used for clustering and association
+            - clustering: used for clustering and association
+                - used for clustering and association
+            - association: means to discover rules that describe the majority portion of the data.
+                - Apriori algorithm
     3. Semi-Supervised Learning
     4. Reinforcement learning
