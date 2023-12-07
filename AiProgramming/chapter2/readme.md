@@ -1,3 +1,19 @@
+# AI Hardware Tools
+    1. Computers with GPUs
+    2. Computers with FPGAs
+    3. Graphcore’s IPUs
+
+# AI Software Tools
+    1. C/C++,
+    2. Java, 
+    3. C#, 
+    4. Python, 
+    5. Matlab, 
+    6. Ruby, 
+    7. R, 
+    8. Julia, 
+    9. Go
+
 In machine learning and deep learning, the most commonly used data file format is **Comma Separated Values (CSV)**.
 <br>
 A CSV file is just plain text with many rows of data, and each row has a fixed number of columns separated by commas.
