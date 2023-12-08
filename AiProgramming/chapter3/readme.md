@@ -54,5 +54,9 @@ Four different categories of ML:
 
 <br>
 
-
+# SVM
+    - Support vector machine (SVM) is the best-­known supervised learning algorithm.
+    - can be used for both classification and regression problems
+    - robust prediction methods, based on the statistical learning framework.
+    
 
