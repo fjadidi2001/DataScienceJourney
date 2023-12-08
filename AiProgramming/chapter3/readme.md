@@ -41,3 +41,18 @@ Four different categories of ML:
     4. Reinforcement learning
         - algorithms learn to find, through trial and error, which actions can yield the maximum cumulative reward
         - used in robotics, video gaming, and navigation
+
+
+<br>
+
+### commonly terminologies
+    1. Class: The categories of the data
+    2. Features: The measurements
+    3. Samples: The data points
+    4. Parameters: The variables of the model
+
+
+<br>
+
+
+
