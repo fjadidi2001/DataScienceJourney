@@ -60,3 +60,7 @@ Four different categories of ML:
     - robust prediction methods, based on the statistical learning framework.
     
 
+# PCA
+    - Principal component analysis
+    - maximizes the variance of the projected points
+    - minimizing the sum-of-squares of the projection errors
