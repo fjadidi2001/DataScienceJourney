@@ -67,3 +67,7 @@ Four different categories of ML:
     - used for : dimensionality reduction, lossy data compression, feature extraction, and data visualization
 
 # Multi-layer perceptron
+
+
+
+# Random forest classifier
