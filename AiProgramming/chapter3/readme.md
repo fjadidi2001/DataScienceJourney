@@ -65,3 +65,5 @@ Four different categories of ML:
     - maximizes the variance of the projected points
     - minimizing the sum-of-squares of the projection errors
     - used for : dimensionality reduction, lossy data compression, feature extraction, and data visualization
+
+# Multi-layer perceptron
