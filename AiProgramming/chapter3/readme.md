@@ -71,3 +71,5 @@ Four different categories of ML:
 
 
 # Random forest classifier
+
+# Decision Trees
