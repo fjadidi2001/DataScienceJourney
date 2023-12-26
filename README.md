@@ -11,7 +11,6 @@
 
 <br>
 
-https://www.kaggle.com/code/yasmino/kdd-cup-2009-data-analysis
 
 <br>
 https://medium.com/@pathakvishnudutt123/customer-relationship-prediction-kdd-cup-2009-2248d83e9d32
