@@ -79,3 +79,7 @@ Regression means
 fitting the data with a mathematical model using a technique called least squares
 fitting.
 <br>
+
+regressions
+1. linear
+2. non-linear
