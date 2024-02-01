@@ -86,4 +86,5 @@ regressions
     distances between the data points and the straight line, and adjust the slope
     (a) and the intercept (b) of the straight line, until we have reached the smallest
     sum of the squares (x^2), which is why it’s called least squares
-2. non-linear
+2. non-linear => For nonlinear regression, we fit the data with more complicated mathematical
+models, such as exponentials and polynomials
