@@ -73,3 +73,9 @@ Four different categories of ML:
 # Random forest classifier
 
 # Decision Trees
+
+# Regressions
+Regression means
+fitting the data with a mathematical model using a technique called least squares
+fitting.
+<br>
