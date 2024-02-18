@@ -88,3 +88,4 @@ regressions
     sum of the squares (x^2), which is why it’s called least squares
 2. non-linear => For nonlinear regression, we fit the data with more complicated mathematical
 models, such as exponentials and polynomials
+    - logestic regression => for the data this is dichotomous => based on a set of independent variables
