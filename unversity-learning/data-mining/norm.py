@@ -13,7 +13,7 @@ which is a branch of mathematics that deals with vectors, vector spaces, linear 
 It is commonly used in various fields such as physics, engineering, computer science, and economics.
 '''
 
-
-print('norm u+v is:',np.linalg.norm(u+v))
-print(np.linalg.norm(u)+np.linalg.norm(v))
+#  Triangle Inequality
+print('norm ||u+v|| is:',np.linalg.norm(u+v))
+print('norm ||u||+||v|| is:',np.linalg.norm(u)+np.linalg.norm(v))
 
