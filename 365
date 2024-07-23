@@ -5,3 +5,8 @@ The ambiguity of data science buzzwords mainly affects those who are new to the 
 
 
 Analytics is essentially the application of logical and computational reasoning to the component parts obtained in an analysis: This definition is the most accurate as it captures the essence of what analytics is about. Analytics involves breaking down complex data into smaller parts and using logical and computational methods to analyze those parts in order to gain insights, identify patterns, and make informed decisions.
+
+
+<br>
+
+>  Preliminary data reporting is a data analytics activity that involves the initial exploration and analysis of data to identify trends, anomalies, and patterns. This process typically involves cleaning and preprocessing the data, exploring it using visualizations and statistical techniques, and identifying any data quality issues that need to be addressed. Creating dashboards is a data analytics activity that involves the development of interactive and visual representations of data to provide insights and facilitate decision-making. Dashboards can help users quickly identify trends, patterns, and anomalies in their data. Digital signal processing is a data analytics activity that involves the analysis of digital signals such as audio, video, and images to extract meaningful information and insights. This type of analysis is used in a wide range of applications, including speech recognition, medical imaging, and video processing. All of the options listed are data analytics activities, and none of them are excluded from the field of data analytics. Therefore, option 4 is the correct answer.
