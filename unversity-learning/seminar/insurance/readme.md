@@ -9,3 +9,5 @@ v2
     - k-fold
 
 - pre-processing
+- Train the model using k-fold cross-validation to achieve high accuracy across all models.
+
