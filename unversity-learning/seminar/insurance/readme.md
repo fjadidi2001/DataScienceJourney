@@ -32,7 +32,7 @@ Save each level as a CSV file.
 # v6
 - Three-level pre-processing
 Save each level as a CSV file.
-- The provided evaluation metrics assess the performance of a model across three different levels (Level 1, Level 2, and Level 3). Here's a clear breakdown of the metrics for each level:
+- The provided evaluation metrics assess the performance of a TanNet model across three different levels (Level 1, Level 2, and Level 3). Here's a clear breakdown of the metrics for each level:
 
 ### Level 1:
 - **Accuracy**: 0.8129 - The model correctly predicts about 81.29% of the instances.
