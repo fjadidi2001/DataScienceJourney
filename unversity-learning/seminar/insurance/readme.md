@@ -25,3 +25,5 @@ This version continues from version 2, with TabNet models training on a straight
 
 # v5
 - Three-level pre-processing
+- split dataset into train, validation, test
+
