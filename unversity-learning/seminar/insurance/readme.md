@@ -67,3 +67,15 @@ Save each level as a CSV file.
 - Preprocess models  
 - Split the dataset into training and testing (20%)  
 - Logistic regression and XGBoost perform well, while TabNet has poor accuracy.
+
+# v8
+- preprocess models
+- split dataset into train, test, and validation
+- evaluate models
+    - Final Comparative Analysis Results:
+                 Model  Accuracy  Precision  Recall  F1 Score
+  Logistic Regression    0.9681   0.983941  0.9681  0.974718
+              XGBoost    0.9952   0.995136  0.9952  0.995079
+               TabNet    0.9897   0.991905  0.9897  0.990064
+        Random Forest    0.9959   0.995934  0.9959  0.995835
+            LightGBM    0.9953   0.995219  0.9953  0.995152
