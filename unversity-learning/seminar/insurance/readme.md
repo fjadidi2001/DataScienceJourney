@@ -61,3 +61,9 @@ Save each level as a CSV file.
 ### General Notes:
 
 - Metric trends show that while accuracy and recall generally improve from Level 1 to Level 2, precision remains low across all levels, indicating challenges in effectively classifying positive instances.
+
+
+# v7
+- Preprocess models  
+- Split the dataset into training and testing (20%)  
+- Logistic regression and XGBoost perform well, while TabNet has poor accuracy.
