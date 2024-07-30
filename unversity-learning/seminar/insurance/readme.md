@@ -21,10 +21,15 @@ This version continues from version 2, with TabNet models training on a straight
 # v4 
 - pre-process data
 - split dataset into train, validation, test
-- Train the TabNet model to achieve 99% accuracy and excellent results.
+- TabNet's accuracy is quite poor in each level
 
 # v5
 - Three-level pre-processing
 Save each level as a CSV file.
 - split dataset into train, validation, test
-  
+- Train the TabNet model to achieve 80% accuracy and excellent results.
+
+# v6
+- Three-level pre-processing
+Save each level as a CSV file.
+- 
