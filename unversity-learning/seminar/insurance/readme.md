@@ -11,3 +11,9 @@ v2
 - pre-processing
 - Train the model using k-fold cross-validation to achieve high accuracy across all models.
 
+v3
+This version continues from version 2, with TabNet models training on a straightforward split.
+
+- split dataset into train, validation, and test
+- pre-process data
+- Train the model and obtain results; overfitting may occur.
