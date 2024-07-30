@@ -73,9 +73,14 @@ Save each level as a CSV file.
 - Split the dataset into training, testing, and validation sets
 - Evaluate models
 Final Comparative Analysis Results:
-Model               Accuracy   Precision   Recall   F1 Score
-Logistic Regression 0.9681     0.9839      0.9681   0.9747
-XGBoost            0.9952     0.9951      0.9952   0.9951
-TabNet             0.9897     0.9919      0.9897   0.9901
-Random Forest      0.9959     0.9959      0.9959   0.9958
-LightGBM          0.9953     0.9952      0.9953   0.9952
+
+
+| Model               | Accuracy | Precision | Recall | F1 Score |
+|---------------------|----------|-----------|--------|----------|
+| Logistic Regression  | 0.9681   | 0.9839    | 0.9681 | 0.9747   |
+| XGBoost             | 0.9952   | 0.9951    | 0.9952 | 0.9951   |
+| TabNet              | 0.9897   | 0.9919    | 0.9897 | 0.9901   |
+| Random Forest       | 0.9959   | 0.9959    | 0.9959 | 0.9958   |
+| LightGBM           | 0.9953   | 0.9952    | 0.9953 | 0.9952   |
+
+
