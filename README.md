@@ -6,9 +6,7 @@ Welcome to the DataScienceJourney repository! This is a collection of projects a
 
 - **FaceRecognition**: Projects related to facial recognition using machine learning algorithms.
 - **Machine_Learning**: A collection of foundational machine learning projects, concepts, and algorithms.
-- **Managed Repo**: Contains organized notebooks and scripts for easy navigation and access.
 - **Course**: Resources from online courses and tutorials on data science and machine learning.
-- **Org Repo**: Projects developed during collaborative efforts in organizations or groups.
 - **University Learning**: Academic projects and assignments related to various courses.
 
 ## Contributions
