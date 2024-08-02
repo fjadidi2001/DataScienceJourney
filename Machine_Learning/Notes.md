@@ -1,4 +1,12 @@
-Exploratory Data Analysis (EDA) is an essential first step in data science that focuses on analyzing and visualizing datasets to grasp their key characteristics, reveal patterns, detect outliers, and explore relationships between variables. This preliminary process typically precedes more formal statistical analyses or modeling.
+# Machine Learning pipeline
+
+![image](https://github.com/user-attachments/assets/ba058a91-8808-47b0-abad-070ce6eca3a9)
+
+
+
+# Exploratory Data Analysis (EDA)
+
+is an essential first step in data science that focuses on analyzing and visualizing datasets to grasp their key characteristics, reveal patterns, detect outliers, and explore relationships between variables. This preliminary process typically precedes more formal statistical analyses or modeling.
 
 
 The outlines key components of Exploratory Data Analysis (EDA):
