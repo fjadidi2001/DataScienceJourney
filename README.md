@@ -29,7 +29,6 @@ Feel free to explore the files and directories. Contributions to the projects ar
 Happy learning!
 
 
-
 # <span style="color: #4A90E2;">DataScienceJourney</span>  
 
 Welcome to the <span style="color: #4A90E2;">DataScienceJourney</span> repository! This is a collection of projects and learning materials focused on <span style="color: #E94E77;">Machine Learning</span>, <span style="color: #E94E77;">Deep Learning</span>, and <span style="color: #E94E77;">Data Science</span>. The repositories contain various Jupyter Notebooks (`*.ipynb`) and Python scripts (`*.py`) aimed at enhancing understanding and skills in the field.  
