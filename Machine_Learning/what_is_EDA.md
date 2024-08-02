@@ -2,10 +2,10 @@ Exploratory Data Analysis (EDA) is an essential first step in data science that 
 
 
 The outlines key components of Exploratory Data Analysis (EDA):
-- Distribution of Data
-- Graphical Representations
-- Outlier Detection
-- Correlation Analysis
-- Handling Missing Values
-- Summary Statistics
-- Testing Assumptions
+- Distribution of Data: Examining the distribution of data points to understand their range, central tendencies (mean, median), and dispersion (variance, standard deviation).
+- Graphical Representations: Utilizing charts such as histograms, box plots, scatter plots, and bar charts to visualize relationships within the data and distributions of variables.
+- Outlier Detection: Identifying unusual values that deviate from other data points. Outliers can influence statistical analyses and might indicate data entry errors or unique cases.
+- Correlation Analysis: Checking the relationships between variables to understand how they might affect each other. This includes computing correlation coefficients and creating correlation matrices.
+- Handling Missing Values: Detecting and deciding how to address missing data points, whether by imputation or removal, depending on their impact and the amount of missing data.
+- Summary Statistics: Calculating key statistics that provide insight into data trends and nuances.
+- Testing Assumptions: Many statistical tests and models assume the data meet certain conditions (like normality or homoscedasticity). EDA helps verify these assumptions.
