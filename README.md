@@ -26,5 +26,6 @@ Feel free to explore the files and directories. Contributions to the projects ar
 3. Open a Jupyter Notebook or Python script to start exploring and learning!
 
 
-Happy learning!
+Happy learning! 🌟
+
 
