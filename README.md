@@ -46,6 +46,6 @@ Feel free to explore the files and directories. Contributions to the projects ar
 
 ## <span style="color: #4A90E2;">Getting Started</span>  
 
-1. <span style="color: #E94E77;">Clone the repository:</span>  
+1. <span style="color: blue;">Clone the repository:</span>  
    ```bash  
    git clone <repository-link>
