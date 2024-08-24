@@ -48,3 +48,45 @@ scikit-learn maintains a consistent syntax across all supervised learning models
 
 4. **Make Predictions:** Use the model’s `predict` method with new observations:
    - Example: Feeding features from six emails to a spam classification model yields an array of predictions (1 for spam, 0 for not spam).
+  
+
+
+
+# Classification Challenge and k-Nearest Neighbors (KNN)
+
+## 1. The Classification Challenge
+- Supervised learning involves using labeled data to build classification models or classifiers for predicting labels of unseen data.
+
+## 2. Classifying Labels of Unseen Data
+- The process consists of four steps:
+  1. Build a classifier that learns from labeled training data.
+  2. Pass unlabeled data to the classifier to predict labels.
+
+## 3. k-Nearest Neighbors (KNN)
+- KNN is a popular algorithm for classification problems.
+- It predicts a data point’s label by looking at the k closest labeled data points and using majority voting to assign the label.
+
+## 4. KNN Example
+- **Using a Scatter Plot:**
+  - For k=3: The black observation is classified as red since two of the three closest observations are red.
+  - For k=5: The black observation is classified as blue.
+
+## 5. KNN Intuition
+- A scatter plot visualizing total evening charge against total day charge for telecom customers illustrates how KNN works.
+- Observations are colored blue for churned customers and red for non-churned.
+- A decision boundary is created with k set to 15, predicting churn (gray background) or no churn (red background).
+
+## 6. Using scikit-learn to Fit a Classifier
+- Steps to fit a KNN model using scikit-learn:
+  1. Import `KNeighborsClassifier` from `sklearn.neighbors`.
+  2. Split data into features (X) and target (y) arrays.
+  3. Convert X and y to NumPy arrays.
+  4. Create an instance of `KNeighborsClassifier` with n_neighbors set to 15.
+  5. Fit the classifier to labeled data using the `fit` method.
+
+## 7. Predicting on Unlabeled Data
+- A new set of observations (X_new) is checked for shape (3 rows and 2 columns).
+- Use the classifier's `predict` method on the unseen data.
+- Predictions for X_new yield binary values: 
+  - 1 for 'churn' (first observation),
+  - 0 for 'no churn' (second and third observations).
