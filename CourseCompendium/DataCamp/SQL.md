@@ -68,7 +68,9 @@ Integer data types are used to store whole numbers, such as the `member_year` in
 Float data types store numbers that have a fractional part, such as monetary values (e.g., 2.05 dollars). SQL offers several float data types based on the expected number of digits, with the `NUMERIC` type capable of storing floats with up to 38 total digits, including those before and after the decimal point.
 
 ## 5. Schemas
-A database schema serves as a "blueprint," illustrating the database's design, including the tables it contains and any relationships between them. It also indicates the data types each field can hold. For example, in a library database schema, `VARCHAR` is used for strings like book titles, authors, and genres. The patrons table is also shown to be related to the checkouts table, but not directly to the books table.
-
+A database schema serves as a "blueprint," illustrating the database's design, including the tables it contains and any relationships between them. It also indicates the data types each field can hold. For example, in a library database schema, `VARCHAR` is used for strings like book titles, authors, and genres. The patrons table is also shown to be related to the checkouts table, but not directly to the books table.<br>
+**Database schemas show data types for each field in all tables, and they also show relationships between tables. **
 ## 6. Database Storage
 The information in a database table is stored physically on a server's hard disk. Servers are centralized computers that perform services in response to network requests. In this context, the service provided is data access. Servers can be any computer configured to offer a service, but they are typically powerful machines capable of handling high volumes of requests and data.
+
+
