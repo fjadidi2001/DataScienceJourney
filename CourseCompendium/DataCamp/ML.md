@@ -92,3 +92,46 @@ scikit-learn maintains a consistent syntax across all supervised learning models
 - Predictions for X_new yield binary values: 
   - 1 for 'churn' (first observation),
   - 0 for 'no churn' (second and third observations).
+
+
+
+# Measuring Model Performance and Complexity in Classification
+
+## 1. Introduction
+After training a classifier, it's crucial to evaluate its performance to determine if it's making correct predictions. This guide outlines how to measure model performance, particularly through accuracy, and how to interpret model complexity.
+
+## 2. Measuring Model Performance
+### Accuracy
+Accuracy is a commonly used metric in classification, defined as the number of correct predictions divided by the total number of observations. While easy to compute, evaluating accuracy solely on the training data isn’t sufficient, as it doesn’t reflect the model's ability to generalize to unseen data.
+
+## 3. Computing Accuracy
+### Train/Test Split
+To properly measure accuracy, we typically split the dataset into a training set and a test set. The classifier is fitted on the training data, and its accuracy is then evaluated against the test set.
+
+- **Implementation Steps**:
+  - Import `train_test_split` from `sklearn.model_selection`.
+  - Split the data, commonly using 20-30% of the data as the test set (e.g., `test_size=0.3`).
+  - Set `random_state` for reproducibility.
+  - Ensure the split reflects the proportion of classes by setting `stratify=y`.
+
+This process returns four arrays: `X_train`, `X_test`, `y_train`, and `y_test`. After fitting a KNN model to the training data, we can check its accuracy using the `score` method on the test data, achieving an accuracy of around 88%.
+
+## 4. Model Complexity
+### Understanding k in KNN
+In KNN, the parameter k determines the number of neighbors considered for making predictions. As k increases, the decision boundary becomes less sensitive to individual observations, resulting in a simpler model. While simpler models may underfit the training data, more complex models can lead to overfitting by capturing noise rather than general patterns.
+
+## 5. Analyzing Overfitting and Underfitting
+To evaluate how different k values affect model performance, we can create a model complexity curve:
+
+- Create dictionaries to store training and test accuracies.
+- Use a range of k values to instantiate multiple KNN models.
+- Fit each model to the training data and calculate accuracies for both training and test sets.
+
+## 6. Plotting Results
+After collecting accuracies, we can plot the training and test accuracies against k values. The resulting graph reveals insights into model performance:
+
+- As k increases beyond a certain point (e.g., 15), performance plateaus, indicating underfitting.
+- The optimal test accuracy is observed around 13 neighbors, balancing complexity and generalization.
+
+## Conclusion
+Measuring model performance through accuracy on a test set and interpreting model complexity via varying k values are key to developing reliable classifiers. Understanding these concepts aids in avoiding underfitting and overfitting, ultimately leading to better predictive models.
