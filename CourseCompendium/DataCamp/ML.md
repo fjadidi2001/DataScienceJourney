@@ -136,7 +136,7 @@ After collecting accuracies, we can plot the training and test accuracies agains
 ## Conclusion
 Measuring model performance through accuracy on a test set and interpreting model complexity via varying k values are key to developing reliable classifiers. Understanding these concepts aids in avoiding underfitting and overfitting, ultimately leading to better predictive models.
 
-```
+```python
 # Import the module
 from sklearn.model_selection import train_test_split
 X = churn_df.drop("churn", axis=1).values
@@ -152,3 +152,14 @@ knn.fit(X_train, y_train)
 print(knn.score(X_test, y_test))
 
 ```
+
+
+<br>
+
+# Overfitting and Underfitting
+
+Interpreting model complexity is a great way to evaluate supervised learning performance. Your aim is to produce a model that can interpret the relationship between features and the target variable, as well as generalize well when exposed to new observations.
+
+The training and test sets have been created from the `churn_df` dataset and preloaded as `X_train`, `X_test`, `y_train`, and `y_test`.
+
+In addition, `KNeighborsClassifier` has been imported for you along with `numpy` as `np`.
