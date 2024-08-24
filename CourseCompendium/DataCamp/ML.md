@@ -70,6 +70,7 @@ scikit-learn maintains a consistent syntax across all supervised learning models
 - **Using a Scatter Plot:**
   - For k=3: The black observation is classified as red since two of the three closest observations are red.
   - For k=5: The black observation is classified as blue.
+![image](https://github.com/user-attachments/assets/46bd7d2c-0bbc-4a86-86f8-91332e92bed2)
 
 ## 5. KNN Intuition
 - A scatter plot visualizing total evening charge against total day charge for telecom customers illustrates how KNN works.
