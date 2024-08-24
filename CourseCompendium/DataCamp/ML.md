@@ -159,7 +159,3 @@ print(knn.score(X_test, y_test))
 # Overfitting and Underfitting
 
 Interpreting model complexity is a great way to evaluate supervised learning performance. Your aim is to produce a model that can interpret the relationship between features and the target variable, as well as generalize well when exposed to new observations.
-
-The training and test sets have been created from the `churn_df` dataset and preloaded as `X_train`, `X_test`, `y_train`, and `y_test`.
-
-In addition, `KNeighborsClassifier` has been imported for you along with `numpy` as `np`.
