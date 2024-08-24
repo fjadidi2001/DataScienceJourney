@@ -106,7 +106,7 @@ Accuracy is a commonly used metric in classification, defined as the number of c
 
 ## 3. Computing Accuracy
 ### Train/Test Split
-To properly measure accuracy, we typically split the dataset into a training set and a test set. The classifier is fitted on the training data, and its accuracy is then evaluated against the test set.
+To properly measure accuracy, we typically split the dataset into a training set and a test set. The classifier is fitted to the training data, and its accuracy is then evaluated against the test set.
 
 - **Implementation Steps**:
   - Import `train_test_split` from `sklearn.model_selection`.
