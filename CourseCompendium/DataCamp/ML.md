@@ -76,6 +76,7 @@ scikit-learn maintains a consistent syntax across all supervised learning models
 - A scatter plot visualizing total evening charge against total day charge for telecom customers illustrates how KNN works.
 - Observations are colored blue for churned customers and red for non-churned.
 - A decision boundary is created with k set to 15, predicting churn (gray background) or no churn (red background).
+![image](https://github.com/user-attachments/assets/9df035a3-e727-4306-98b4-9aa07aa68abf)
 
 ## 6. Using scikit-learn to Fit a Classifier
 - Steps to fit a KNN model using scikit-learn:
