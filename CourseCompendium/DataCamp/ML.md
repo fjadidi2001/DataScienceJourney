@@ -98,7 +98,7 @@ scikit-learn maintains a consistent syntax across all supervised learning models
 # Measuring Model Performance and Complexity in Classification
 
 ## 1. Introduction
-After training a classifier, it's crucial to evaluate its performance to determine if it's making correct predictions. This guide outlines how to measure model performance, particularly through accuracy, and how to interpret model complexity.
+After training a classifier, it's crucial to evaluate its performance to determine if it's making correct predictions.
 
 ## 2. Measuring Model Performance
 ### Accuracy
