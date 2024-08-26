@@ -60,4 +60,25 @@ Although ChatGPT is a valuable tool that can perform a huge variety of tasks, th
    Consider a scenario where we ask ChatGPT to write a new song in the style of our favorite artist. The resulting song may resemble the artist's style based on the lyrics available in the training data. However, ownership of this new song becomes complicated. Is it owned by the user who wrote the prompt, the original artist, or OpenAI, the creators of ChatGPT? It's easy to navigate legal gray areas if the use cases for ChatGPT are not properly defined, which raises concerns about ownership and legal implications that will need to be addressed later in the course.
 
 
+<br>
+# Writing Effective Prompts
 
+## Introduction
+Welcome back!
+
+## Garbage in, garbage out
+The phrase "garbage in, garbage out" emphasizes that the quality of the input prompts for ChatGPT directly affects the quality of the responses. Prompts lacking sufficient context or clarity are likely to yield poorer results.
+
+## How ChatGPT Interprets a Prompt
+ChatGPT interprets prompts by identifying the main topic and understanding the task being requested. It extracts key phrases that help shape the response, highlighting the importance of context in generating high-quality answers.
+
+## Prompt Engineering
+Prompt engineering refers to crafting prompts to optimize the quality and relevance of the model's responses. Best practices in prompt engineering can greatly enhance the effectiveness of interactions with ChatGPT.
+
+## Writing Tips for Prompt Engineering
+1. **Be Clear and Specific**: Ensure the prompt includes all necessary context for the desired response.
+2. **Keep Prompts Concise**: Remove unnecessary information to focus on key details.
+3. **Use Correct Grammar and Spelling**: Proper grammar aids ChatGPT in accurately interpreting the task.
+
+## Provide Examples if Necessary
+Including examples in prompts can clarify the desired outcomes more efficiently than lengthy explanations. Examples help guide ChatGPT in producing responses that align with expectations, ensuring the output meets specific formatting or content requirements.
