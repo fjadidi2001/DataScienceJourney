@@ -61,4 +61,3 @@ Although ChatGPT is a valuable tool that can perform a huge variety of tasks, th
 
 
 
-**ChatGPT has a knowledge cutoff**
