@@ -58,3 +58,7 @@ Although ChatGPT is a valuable tool that can perform a huge variety of tasks, th
 
 5. **Legal and Ethical Considerations**  
    Consider a scenario where we ask ChatGPT to write a new song in the style of our favorite artist. The resulting song may resemble the artist's style based on the lyrics available in the training data. However, ownership of this new song becomes complicated. Is it owned by the user who wrote the prompt, the original artist, or OpenAI, the creators of ChatGPT? It's easy to navigate legal gray areas if the use cases for ChatGPT are not properly defined, which raises concerns about ownership and legal implications that will need to be addressed later in the course.
+
+
+
+**ChatGPT has a knowledge cutoff**
