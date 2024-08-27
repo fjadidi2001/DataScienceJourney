@@ -44,3 +44,8 @@ Using ChatGPT as a tool: The lesson emphasizes the partnership between users and
 > The content emphasizes enhancing the use of ChatGPT for various tasks by adopting personas in prompts to generate more tailored and engaging outputs, such as speeches that reflect specific styles or personal voices. By providing examples and utilizing structured prompts, users can guide ChatGPT more effectively, enabling the AI to produce responses that resonate with individual preferences and writing styles. Techniques like zero-shot, one-shot, and few-shot learning are introduced to refine responses further and illustrate how to approach problem-solving using chain-of-thought prompting.
 
   Additionally, the limitations of ChatGPT are addressed, including biases, hallucinations, and issues related to overfitting, advocating for a discerning approach to its outputs. Users will learn to build complex workflows and multi-step tasks, transitioning from basic queries to more sophisticated ones that explore the full range of ChatGPT’s capabilities. By the end, there is a shift in focus from what ChatGPT can do to contemplating its boundaries, ultimately pushing the limits of conversational AI.
+
+
+<br>
+Prompt engineering is an evolving field that blends an understanding of prompting with various strategies to deliver amazing results with large language models like ChatGPT.
+
