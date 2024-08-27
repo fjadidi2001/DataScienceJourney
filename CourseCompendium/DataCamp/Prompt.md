@@ -37,3 +37,10 @@ Common pitfalls in prompt crafting: Students learn to avoid overloading prompts 
 Prompt evolution and refinement: The lesson emphasizes that prompts are not static and encourages feedback-driven refinement to enhance prompt quality, creating an iterative process for improvement.
 
 Using ChatGPT as a tool: The lesson emphasizes the partnership between users and language models like ChatGPT, highlighting that these tools should augment creativity and conventional thinking rather than replace them, ushering in new ideas and insights.
+
+
+
+
+> The content emphasizes enhancing the use of ChatGPT for various tasks by adopting personas in prompts to generate more tailored and engaging outputs, such as speeches that reflect specific styles or personal voices. By providing examples and utilizing structured prompts, users can guide ChatGPT more effectively, enabling the AI to produce responses that resonate with individual preferences and writing styles. Techniques like zero-shot, one-shot, and few-shot learning are introduced to refine responses further and illustrate how to approach problem-solving using chain-of-thought prompting.
+
+  Additionally, the limitations of ChatGPT are addressed, including biases, hallucinations, and issues related to overfitting, advocating for a discerning approach to its outputs. Users will learn to build complex workflows and multi-step tasks, transitioning from basic queries to more sophisticated ones that explore the full range of ChatGPT’s capabilities. By the end, there is a shift in focus from what ChatGPT can do to contemplating its boundaries, ultimately pushing the limits of conversational AI.
