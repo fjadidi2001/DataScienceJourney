@@ -164,3 +164,18 @@ Beyond legal considerations, AI ethics ensure that AI is used in ways that benef
 <br>
 
 ![image](https://github.com/user-attachments/assets/b4ac9864-f478-453c-8952-1a661f7f9b78)
+
+
+<br>
+
+| Section                   | Key Points                                                                                                           |
+|---------------------------|---------------------------------------------------------------------------------------------------------------------|
+| Introduction               | Generative AI models are increasingly resembling human-generated content and handling complex instructions reliably. |
+| Improvements Drivers       | Improvements are driven by large language models (LLMs) trained on vast amounts of text data, enabling pattern detection and response quality fine-tuning. |
+| Increasing Training Data   | The growing amount of training data will enhance understanding of complex language, including sarcasm and idioms. |
+| User Feedback              | Usage data and user ratings allow for ongoing fine-tuning of models while they are live.                          |
+| Challenges with Data       | Ensuring balanced and high-quality training data is challenging; robust procedures are needed to reduce bias.       |
+| Misuse Risks               | More human-like AI content increases the risk of misuse, prompting potential government regulation.                  |
+| Specialized Models         | Future development will likely focus on specialized models for specific tasks, which perform better than generalized ones. |
+| Diverse Generative AI      | Generative AI is also utilized for creating images, audio, and video, following similar training principles.       |
+| Accessibility              | The success of ChatGPT highlights the importance of democratizing AI tools for widespread access and benefits.   |
