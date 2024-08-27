@@ -95,3 +95,36 @@ Including examples in prompts can clarify the desired outcomes more efficiently 
 | HR and People Teams | HR professionals can utilize ChatGPT to brainstorm initiatives aimed at improving employee engagement and well-being, as well as to enhance communication efficiency with other employees. |
 | Marketing | Marketing teams focus on brand and product awareness. They can use ChatGPT to write social media posts, edit human-written content, create diverse marketing copy, and optimize content for search engines with provided target keywords. |
 | Sales | Sales teams aim to acquire new customers, which often involves internal communication for product information and outreach for lead generation. ChatGPT can assist in generating outreach templates, personalizing content, brainstorming strategies, and summarizing information from internal stakeholders. |
+
+
+
+<br>
+
+# Validating a Use Case
+
+## Key Considerations
+
+- **Accuracy Requirement**  
+  Determine if a high degree of accuracy is needed for the responses. ChatGPT may not be the best option for use cases requiring certainty, such as government policy advisory.
+
+- **Verification of Responses**  
+  Evaluate the ability to verify the quality of responses. Subject matter expertise is essential, so avoid tasks that users cannot independently confirm.
+
+- **Sensitive Data Handling**  
+  Assess whether the use case involves sensitive data, such as personal information or company source code. Ensure consent is obtained, and maintain compliance with data governance laws like GDPR or CCPA. Consulting with legal counsel on these matters may be necessary.
+
+- **Ownership of Responses**  
+  Consider the importance of output ownership, especially in cases where revenue generation is involved. Under OpenAI's terms of use, users can claim ownership, but potential copyright issues may complicate this.
+
+- **Testing Valid Use Cases**  
+  If ownership is not a concern, it is advisable to begin testing the use case.
+
+## Use Case Examples
+
+### Brainstorming Ideas in HR
+**Scenario:** An HR manager looking to improve employee well-being based on recent survey results.  
+**Suitability:** This use case is appropriate as it requires only suggestions, accuracy is not critical, the HR manager can verify the input, and there are no sensitive data or ownership issues involved.
+
+### Healthcare Recommendations
+**Scenario:** A healthcare provider wanting to create an online treatment recommendation system using ChatGPT.  
+**Suitability:** This use case is unsuitable due to the high level of accuracy required in medical recommendations, where incorrect advice could lead to serious consequences. ChatGPT cannot ensure this level of precision.
