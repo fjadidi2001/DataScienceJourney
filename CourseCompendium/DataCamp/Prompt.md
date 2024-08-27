@@ -7,6 +7,7 @@ The demonstration highlights the capabilities of ChatGPT in transforming user pr
   - Clarity: A well-defined prompt includes relevant context to reduce ambiguity.
   - Specificity: Being specific helps get closer to the desired answer; avoid unnecessary information.
   - Open-endedness: Allowing the model to think outside the box can yield richer, non-obvious results.
+
 Common pitfalls when crafting prompts:
 
 1. Overloading: Bombarding the model with too much information can dilute the essence of your query.
@@ -17,3 +18,4 @@ Common pitfalls when crafting prompts:
 <br>
 
 
+![image](https://github.com/user-attachments/assets/b6a3cecb-c2dc-4ccd-8e4c-3b8449633ff9)
