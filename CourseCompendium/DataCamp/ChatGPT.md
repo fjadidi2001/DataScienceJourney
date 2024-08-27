@@ -155,7 +155,12 @@ According to OpenAI's terms, users own the prompts they input, subject to legal 
 OpenAI analyzes user prompts and responses to improve ChatGPT's performance. Users should opt-out in the privacy settings if they do not want their data used for this purpose. Inputting sensitive data without proper consent could breach data governance laws.
 
 ## 5. Data Governance
-Data governance laws regulate how data can be collected, stored, and used to protect personal information. An example is GDPR, which governs data usage involving EU citizens. Use cases for ChatGPT must satisfy both OpenAI's terms and applicable data governance laws.
+Data governance laws regulate how data can be collected, stored, and used to protect personal information. An example is GDPR, which governs data usage by EU citizens. Use cases for ChatGPT must satisfy both OpenAI's terms and applicable data governance laws.
 
 ## 6. AI Ethics
 Beyond legal considerations, AI ethics ensure that AI is used in ways that benefit society. While not legally binding, it's essential to ensure that enabling a use case does not negatively impact society and ideally brings positive outcomes.
+
+
+<br>
+
+![image](https://github.com/user-attachments/assets/b4ac9864-f478-453c-8952-1a661f7f9b78)
