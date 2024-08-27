@@ -119,6 +119,8 @@ Including examples in prompts can clarify the desired outcomes more efficiently 
 - **Testing Valid Use Cases**  
   If ownership is not a concern, it is advisable to begin testing the use case.
 
+![image](https://github.com/user-attachments/assets/939a0471-ef1c-45ba-a47d-5a3203b4a0be)
+
 ## Use Case Examples
 
 ### Brainstorming Ideas in HR
