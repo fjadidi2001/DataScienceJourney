@@ -1,4 +1,4 @@
-The demonstration highlights the capabilities of ChatGPT in transforming user prompts into useful outputs, such as generating a list of foods for losing fat and gaining muscle, creating a fusion menu with shopping lists and cooking instructions, and even crafting poetic responses alongside web design suggestions. It emphasizes the importance of prompt engineering, illustrating how multi-layered queries can connect various creative and practical tasks, ultimately showcasing ChatGPT's versatility beyond basic question-answering. 
+> The demonstration highlights the capabilities of ChatGPT in transforming user prompts into useful outputs, such as generating a list of foods for losing fat and gaining muscle, creating a fusion menu with shopping lists and cooking instructions, and even crafting poetic responses alongside web design suggestions. It emphasizes the importance of prompt engineering, illustrating how multi-layered queries can connect various creative and practical tasks, ultimately showcasing ChatGPT's versatility beyond basic question-answering. 
 
 <br>
 
