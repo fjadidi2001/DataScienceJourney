@@ -10,6 +10,7 @@ Common pitfalls when crafting prompts:
 
 
 <br>
+
 - A prompt is a carefully crafted inquiry, not just a random question.
 - Effective prompts exhibit three distinct traits:
   - Clarity: A well-defined prompt includes relevant context to reduce ambiguity.
