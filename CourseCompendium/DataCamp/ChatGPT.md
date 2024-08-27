@@ -179,3 +179,7 @@ Beyond legal considerations, AI ethics ensure that AI is used in ways that benef
 | Specialized Models         | Future development will likely focus on specialized models for specific tasks, which perform better than generalized ones. |
 | Diverse Generative AI      | Generative AI is also utilized for creating images, audio, and video, following similar training principles.       |
 | Accessibility              | The success of ChatGPT highlights the importance of democratizing AI tools for widespread access and benefits.   |
+
+<br>
+
+![image](https://github.com/user-attachments/assets/85f40eaf-408c-4ad0-b018-7a8b57c2c06f)
