@@ -5,7 +5,7 @@
 - A prompt is a carefully crafted inquiry, not just a random question.
 - Effective prompts exhibit three distinct traits:
   - Clarity: A well-defined prompt includes relevant context to reduce ambiguity.
-  - Specificity: Being specific helps get closer to the desired answer; avoid unnecessary information.
+  - Specificity: Being specific helps get closer to the desired answer; and avoid unnecessary information.
   - Open-endedness: Allowing the model to think outside the box can yield richer, non-obvious results.
 
 ## Common pitfalls when crafting prompts:
