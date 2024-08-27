@@ -2,3 +2,8 @@ The demonstration highlights the capabilities of ChatGPT in transforming user pr
 
 <br>
 
+Common pitfalls when crafting prompts:
+
+1. Overloading: Bombarding the model with too much information can dilute the essence of your query.
+2. Ambiguity: Being vague can lead to generalized answers.
+3. Over-Complication: Using jargon, complex phrasing, or unnecessary technicalities can confuse the model, leading to misinterpretations or overly complex answers.
