@@ -8,7 +8,7 @@
   - Specificity: Being specific helps get closer to the desired answer; avoid unnecessary information.
   - Open-endedness: Allowing the model to think outside the box can yield richer, non-obvious results.
 
-Common pitfalls when crafting prompts:
+## Common pitfalls when crafting prompts:
 
 1. Overloading: Bombarding the model with too much information can dilute the essence of your query.
 2. Ambiguity: Being vague can lead to generalized answers.
