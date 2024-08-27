@@ -15,7 +15,3 @@ Common pitfalls when crafting prompts:
   - Clarity: A well-defined prompt includes relevant context to reduce ambiguity.
   - Specificity: Being specific helps get closer to the desired answer; avoid unnecessary information.
   - Open-endedness: Allowing the model to think outside the box can yield richer, non-obvious results.
-- Example analysis:
-  - Lack of clarity: Misconceptions about the tallest mountain (Mt. Everest vs. Olympus Mons).
-  - Lack of specificity: Asking Siri to "set a timer" may result in a clarifying question, "For how long?".
-  - Open-ended nature: Asking for best pizza recommendations invites diverse and creative answers.
