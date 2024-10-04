@@ -36,7 +36,7 @@
 ### Main Innovations in the Article:
 
 1. **Application of TabNet to Insurance**:  
-   While TabNet, introduced by Arik and Pfister in 2021, was initially proposed for tabular data in general, this article is the **first to apply TabNet to insurance telematics data** for risk pricing and claims prediction. This is a novel contribution as insurance companies typically rely on GLMs and other traditional models, making this application a step forward in using deep learning within the industry【5†source】.
+   While TabNet, introduced by Arik and Pfister in 2021, was initially proposed for tabular data in general, this article is the **first to apply TabNet to insurance telematics data** for risk pricing and claims prediction. This is a novel contribution as insurance companies typically rely on GLMs and other traditional models, making this application a step forward in using deep learning within the industry.[source](https://www.sciencedirect.com/science/article/pii/S0957417423000441)
 
 2. **Improved Interpretability in Deep Learning Models**:  
    One of the major innovations is demonstrating **how TabNet provides interpretable results in a deep learning context**. This is significant because deep learning models are often seen as black boxes, which is problematic in regulated industries like insurance, where transparency is necessary. TabNet’s use of decision masks to highlight feature importance and the sequence of decision steps helps to bridge this gap between accuracy and interpretability【5†source】.
