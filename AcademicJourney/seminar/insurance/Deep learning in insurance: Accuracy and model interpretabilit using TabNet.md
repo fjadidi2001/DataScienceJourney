@@ -28,4 +28,3 @@
 - **Computational Efficiency**: The model's training time is high. Optimizing the architecture or utilizing hardware accelerators could reduce computational costs.
 - **Hyperparameter Tuning**: The model is sensitive to hyperparameters and requires significant effort to fine-tune. Introducing automated tuning techniques like Bayesian optimization could improve usability.
 
-Would you like more details or a specific part to be elaborated further?
