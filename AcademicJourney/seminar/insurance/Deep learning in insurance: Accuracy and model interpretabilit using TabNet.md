@@ -16,7 +16,7 @@
    TabNet proves to be a robust solution for telematics-based insurance pricing, capturing the complexity of the data and delivering interpretable results. However, the model tends to overfit and is computationally expensive to train. XGBoost remains competitive with less effort but lacks the same level of feature interpretability. Logistic Regression (GLM) performed poorly in comparison, especially on complex data.[source](https://www.sciencedirect.com/science/article/pii/S0957417423000441)
 
 6. **Conclusion**:  
-   TabNet is recommended as a powerful, interpretable DL model for insurance applications, offering a strong balance between predictive performance and interpretability. Its ability to handle telematics data and identify meaningful features can help insurers develop more accurate and transparent pricing models【5†source】.
+   TabNet is recommended as a powerful, interpretable DL model for insurance applications, offering a strong balance between predictive performance and interpretability. Its ability to handle telematics data and identify meaningful features can help insurers develop more accurate and transparent pricing models[source](https://www.sciencedirect.com/science/article/pii/S0957417423000441).
 
 ### Innovations Introduced:
 - **TabNet Model**: A deep learning model with sequential processing and attention mechanisms that provide interpretability in telematics data, a significant improvement over black-box DL models.
