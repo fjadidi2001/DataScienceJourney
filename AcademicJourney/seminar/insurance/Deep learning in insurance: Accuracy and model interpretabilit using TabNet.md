@@ -1,7 +1,7 @@
 **Summary of the Article "Deep Learning in Insurance: Accuracy and Model Interpretability Using TabNet"**
 
 1. **Introduction**:  
-   The paper focuses on using telematics data in the insurance industry for risk pricing and claims prediction. Traditional models like Generalized Linear Models (GLMs) and XGBoost are popular but have limitations, especially with high-dimensional, non-linear data like telematics. The article proposes TabNet, a Deep Learning (DL) architecture, as an alternative to better handle this data while also providing interpretability, a key requirement for regulatory compliance in the insurance sector【5†source】.
+   The paper focuses on using telematics data in the insurance industry for risk pricing and claims prediction. Traditional models like Generalized Linear Models (GLMs) and XGBoost are popular but have limitations, especially with high-dimensional, non-linear data like telematics. The article proposes TabNet, a Deep Learning (DL) architecture, as an alternative to better handle this data while also providing interpretability, a key requirement for regulatory compliance in the insurance sector[paper](https://www.sciencedirect.com/science/article/pii/S0957417423000441) .
 
 2. **Dataset and Pre-processing**:  
    The authors use a synthetic telematics dataset based on real-world data from a Canadian insurer, including traditional policyholder data, telematics data, and claims information. They create a binary response variable, ‘ClaimYN,’ to indicate whether a driver is considered risky based on the number and amount of claims. Pre-processing levels range from minimal data normalization to advanced feature engineering, testing TabNet against GLM and XGBoost models【5†source】.
