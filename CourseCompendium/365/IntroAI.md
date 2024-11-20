@@ -10,6 +10,8 @@ They are responsible for designing and constructing robots including their mobil
 
 
 
+# What is computer vision?
 
+Computer vision is a field of artificial intelligence (AI) that uses machine learning and neural networks to teach computers and systems to derive meaningful information from digital images, videos and other visual inputs and to make recommendations or take actions when they see defects or issues.  
 
 ![image](https://github.com/user-attachments/assets/168c74de-65d5-4c06-b7a2-847f54509629)
