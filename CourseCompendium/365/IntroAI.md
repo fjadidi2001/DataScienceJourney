@@ -29,3 +29,26 @@ Computer vision is a field of artificial intelligence (AI) that uses machine lea
 
 
 > Generative AI is primarily concerned with creating new content based on existing data, rather than just processing it.
+
+
+
+# NLP
+
+
+![image](https://github.com/user-attachments/assets/a564859c-0fe6-4368-b0b2-b89a1d1ed8b7)
+
+
+
+1. **Statistical NLP marked a shift from rule-based systems in the late 1980s** - True, as this shift allowed for more data-driven approaches.
+
+2. **Word embeddings allow words to be represented as vectors in high-dimensional space** - True, this is a fundamental technique in modern NLP that captures semantic meanings.
+
+3. **Transformer architecture revolutionized NLP and enabled the creation of large language models** - True, transformers have significantly advanced the capabilities of NLP through models like BERT and GPT.
+
+The following statements are not accurate:
+
+4. **Rule-based NLP systems became prominent in the 2010s with the introduction of neural networks** - False, rule-based systems were more prevalent before the rise of neural networks.
+
+5. **NLP tasks have remained largely unchanged since the 1950s, focusing mainly on grammar rules** - False, NLP has evolved significantly, especially with the advancement of machine learning and deep learning techniques.
+
+
