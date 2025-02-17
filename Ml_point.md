@@ -1,5 +1,5 @@
 - What is KNN Imputer and how does it work?
-+ KNN Imputer imputes missing values in a dataset compared to traditional methods like using mean, median, or mode. It is based on the K-Nearest Neighbors (KNN) algorithm, which fills missing values by referencing the values of the nearest neighbors.
+KNN Imputer imputes missing values in a dataset compared to traditional methods like using mean, median, or mode. It is based on the K-Nearest Neighbors (KNN) algorithm, which fills missing values by referencing the values of the nearest neighbors.
 
 Here’s how it works:
 
