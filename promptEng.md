@@ -47,3 +47,9 @@ Using ChatGPT as a tool: The lesson emphasizes the partnership between users and
 
 ![image](https://github.com/user-attachments/assets/1d4b7c9e-824e-4f40-985e-5d86707442e4)
 
+
+
+<br><br>
+
+
+![image](https://github.com/user-attachments/assets/969c043f-be1f-48d3-a712-95dc5fbc1261)
