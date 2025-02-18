@@ -41,3 +41,9 @@ Common pitfalls in prompt crafting: Students learn to avoid overloading prompts 
 Prompt evolution and refinement: The lesson emphasizes that prompts are not static and encourages feedback-driven refinement to enhance prompt quality, creating an iterative process for improvement.
 
 Using ChatGPT as a tool: The lesson emphasizes the partnership between users and language models like ChatGPT, highlighting that these tools should augment creativity and conventional thinking rather than replace them, ushering in new ideas and insights.
+
+
+
+
+![image](https://github.com/user-attachments/assets/1d4b7c9e-824e-4f40-985e-5d86707442e4)
+
