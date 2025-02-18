@@ -53,3 +53,9 @@ Using ChatGPT as a tool: The lesson emphasizes the partnership between users and
 
 
 ![image](https://github.com/user-attachments/assets/969c043f-be1f-48d3-a712-95dc5fbc1261)
+
+
+<br>
+
+**Prompt engineering is an evolving field that blends an understanding of prompting with various strategies to deliver amazing results with large language models like ChatGPT.**
+
