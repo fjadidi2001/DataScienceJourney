@@ -9,3 +9,6 @@
 
 
 5. This combination is what we call 'Prompt Engineering'. It’s all about writing inputs that maximize the quality of the output.
+
+
+> Mastering prompt engineering also involves understanding what not to do. While it may seem that any question or statement can serve as a prompt, not all prompts yield effective results. As we journey through this course, you'll learn the nuances that separate a good prompt from a great one, letting you achieve optimal responses from language models like ChatGPT. Just as there are best practices in prompt engineering, there are also pitfalls to avoid: Overloading: Bombarding the model with too much information can dilute the essence of your query. Ambiguity: Being vague can lead to generalized answers. Over-Complication: Using jargon, complex phrasing, or unnecessary technicalities can confuse the model, leading to misinterpretations or overly complex answers.
