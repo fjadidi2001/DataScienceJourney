@@ -4,3 +4,6 @@
 4. Diving into the world of prompts allows you to unleash your creativity and iterate on ideas until they match your vision.
 
 > A prompt isn't just a question thrown into the void, expecting an answer. It's carefully crafted, with each word pivotal in guiding the response. Effective prompts typically exhibit three distinct traits: Clarity: A well-defined prompt includes the relevant context to reduce ambiguity. Specificity: The more specific you are, the closer you get to your desired answer. Make sure to avoid any unnecessary information. And finally, open-endedness: Sometimes, allowing the model to think outside the box can yield richer results that were non-obvious from the outset. Let's dissect the earlier example. A lack of clarity might lead to misconceptions about the tallest mountain. On Earth, it’s Mt. Everest, but in our solar system, it’s Olympus Mons, on the planet Mars. Without specificity, if we ask Siri to just “set a timer,” it would likely respond with “For how long?”. And the open-ended nature of asking a friend for their best pizza recommendations invites diverse answers. Leaving room for interpretation often brings newfound creativity.
+
+
+5. This combination is what we call 'Prompt Engineering'. It’s all about writing inputs that maximize the quality of the output.
