@@ -15,8 +15,11 @@
 > Mastering prompt engineering also involves understanding what not to do. While it may seem that any question or statement can serve as a prompt, not all prompts yield effective results. As we journey through this course, you'll learn the nuances that separate a good prompt from a great one, letting you achieve optimal responses from language models like ChatGPT. Just as there are best practices in prompt engineering, there are also pitfalls to avoid: Overloading: Bombarding the model with too much information can dilute the essence of your query. Ambiguity: Being vague can lead to generalized answers. Over-Complication: Using jargon, complex phrasing, or unnecessary technicalities can confuse the model, leading to misinterpretations or overly complex answers.
 
 <br>
+
 ![image](https://github.com/user-attachments/assets/6ffd4b15-4612-4f57-87d8-432c174d2219)
+
 <br><br>
+
 ![image](https://github.com/user-attachments/assets/cf322afd-8d1c-452a-a257-5895bb44b4ea)
 
 
