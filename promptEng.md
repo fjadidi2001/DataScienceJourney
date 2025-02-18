@@ -18,3 +18,22 @@
 ![image](https://github.com/user-attachments/assets/6ffd4b15-4612-4f57-87d8-432c174d2219)
 <br><br>
 ![image](https://github.com/user-attachments/assets/cf322afd-8d1c-452a-a257-5895bb44b4ea)
+
+
+
+<br>
+
+
+Understanding the concept of prompts: The lesson introduces the idea that prompts are not just questions but are gateways to accessing information, insights, and solutions in various contexts, such as internet searches, voice assistants, or seeking advice from friends.
+
+The anatomy of a prompt: Effective prompts exhibit three essential traits: clarity (providing relevant context to reduce ambiguity), specificity (being as specific as possible to obtain the desired answer), and open-endedness (allowing room for creative and non-obvious responses).
+
+Demonstrating the importance of clarity, specificity, and open-endedness: The lesson uses practical examples to show how these qualities can transform a generic request into a tailored and stimulating response.
+
+Prompt engineering: This concept combines the art of understanding language nuances, tone, and context with the science of recognizing the capabilities and decoding strategies of language models like ChatGPT to write prompts that maximize the quality of output.
+
+Common pitfalls in prompt crafting: Students learn to avoid overloading prompts with excessive information, being vague, or over-complicating them with jargon or unnecessary technicalities, as these can lead to suboptimal results.
+
+Prompt evolution and refinement: The lesson emphasizes that prompts are not static and encourages feedback-driven refinement to enhance prompt quality, creating an iterative process for improvement.
+
+Using ChatGPT as a tool: The lesson emphasizes the partnership between users and language models like ChatGPT, highlighting that these tools should augment creativity and conventional thinking rather than replace them, ushering in new ideas and insights.
