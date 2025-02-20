@@ -82,4 +82,5 @@ Recognizing Limitations: Understanding ChatGPT's biases, potential for misinform
 
 >Effectively limiting response length is an essential skill for creating effective prompts. Without a specified limit, large language models like ChatGPT typically produce very extensive responses, often far exceeding the anticipated length.
 
+![image](https://github.com/user-attachments/assets/f4f1a371-0617-4518-892e-5b5ca1b16f41)
 
