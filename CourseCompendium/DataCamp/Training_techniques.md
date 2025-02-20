@@ -7,3 +7,9 @@
 3. Few-shot learning is where we arm ChatGPT with multiple examples before posing our main query.
    
 ![image](https://github.com/user-attachments/assets/f3f7e17e-0d54-49e0-a0cf-4f3cbdf4dbcf)
+
+
+
+<br>
+
+Chain of Thought Prompting (COT) is an advanced technique that takes training a step further.
