@@ -3,3 +3,4 @@
 - They represent the degree of examples or context we provide ChatGPT before asking our main question. 
 
 1. Zero-shot learning is when we throw a question or task at ChatGPT without providing any prior examples
+2. One-shot is the middle ground. Think of it as showing someone how to do a task once and then expecting them to replicate it
