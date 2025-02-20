@@ -118,4 +118,5 @@ Now it’s time to highlight a suggested solution structure
 
 >As we delve into the realm of advanced applications with ChatGPT, we explore beyond routine Q&A. Chaining prompts and maintaining context over multiple interactions is crucial for constructing complex workflows and tailoring prompts.
 
+![image](https://github.com/user-attachments/assets/01c0029f-a2e1-43a9-a98a-ccb06c3b39e3)
 
