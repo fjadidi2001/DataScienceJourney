@@ -92,3 +92,7 @@ Recognizing Limitations: Understanding ChatGPT's biases, potential for misinform
 
 
 ![image](https://github.com/user-attachments/assets/9c467ff9-848e-465c-a441-3ce3af63868a)
+
+
+
+> Delimiters in prompts, such as quotation marks or parentheses, do not actually speed up the response time of the model.
