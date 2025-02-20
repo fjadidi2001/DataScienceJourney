@@ -9,6 +9,8 @@
 ![image](https://github.com/user-attachments/assets/f3f7e17e-0d54-49e0-a0cf-4f3cbdf4dbcf)
 
 
+>  One-shot prompting generally is easier and quicker since it doesn't require as many examples as few-shot, but it may be less precise and adaptable in understanding complex or nuanced tasks.
+
 
 <br>
 
