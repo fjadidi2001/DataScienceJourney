@@ -13,3 +13,5 @@
 <br>
 
 Chain of Thought Prompting (COT) is an advanced technique that takes training a step further.
+<br>
+It mirrors the way we are, as humans, approach problem-solving: by breaking down complex tasks into manageable steps.
