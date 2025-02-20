@@ -86,3 +86,5 @@ Recognizing Limitations: Understanding ChatGPT's biases, potential for misinform
 
 
 > Relevance ensures the response aligns with the context and intent of the prompt.
+
+> The only way we can know the responses provided are accurate is if we verify important facts and information to make informed decisions.
