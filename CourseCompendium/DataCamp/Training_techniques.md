@@ -1,1 +1,4 @@
-Training techniques influence how models like ChatGPT generate answers, with zero-shot, one-shot, and few-shot learning being key concepts. Zero-shot learning involves asking the model a question without any examples. One-shot learning provides a single example to guide the response. Few-shot learning offers a few examples, giving the model more context to produce relevant answers. Understanding these methods helps in effectively interacting with the model.
+- At the core of your interactions lie training techniques. **These determine the way the model generates answers**.
+- Understanding the spectrum of 1. zero-shot 2. one-shot 3. and few-shot learning is crucial.
+- These aren't just cool names. They represent the degree of examples or context we provide ChatGPT before asking our main question. Let's explore these methods.
+
