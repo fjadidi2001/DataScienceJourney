@@ -59,3 +59,11 @@ Using ChatGPT as a tool: The lesson emphasizes the partnership between users and
 
 **Prompt engineering is an evolving field that blends an understanding of prompting with various strategies to deliver amazing results with large language models like ChatGPT.**
 
+
+
+- Adopting Personas: You discovered that specifying a persona, such as asking Ernest Hemingway to draft a speech, can significantly influence the style, tone, and content of ChatGPT's output.
+- Personal Writing Style: By providing examples of your writing, ChatGPT can mimic your style, making each response feel uniquely yours.
+- Markdown and Delimiters: You learned that structuring your text with markdown and using quotation marks effectively can lead to clearer, more precise prompts.
+- Learning Techniques: The lesson covered zero-shot, one-shot, and few-shot learning as methods to guide ChatGPT in generating responses that seem intuitive and personalized.
+- Chain-of-Thought Prompting: This technique helps break down complex tasks into simpler steps, making problem-solving with ChatGPT more manageable.
+Recognizing Limitations: Understanding ChatGPT's biases, potential for misinformation, and overfitting is crucial for crafting better prompts and interpreting responses accurately.
