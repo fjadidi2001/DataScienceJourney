@@ -96,3 +96,5 @@ Recognizing Limitations: Understanding ChatGPT's biases, potential for misinform
 
 
 > Delimiters in prompts, such as quotation marks or parentheses, do not actually speed up the response time of the model.
+> Quotation marks are a powerful tool for guiding ChatGPT's interpretation and producing responses that are focused and useful.
+
