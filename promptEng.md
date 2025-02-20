@@ -106,3 +106,5 @@ The model's limitations become apparent when tackling discontinuous tasks that d
 >  Actively avoiding stereotypes and promoting a diversity of perspectives in your prompts can help mitigate the biases inherent in the model’s training data, leading to more inclusive and unbiased humor.
 
 
+
+![image](https://github.com/user-attachments/assets/9cb9099f-d11b-4ef1-87dc-18e0e367b4b3)
