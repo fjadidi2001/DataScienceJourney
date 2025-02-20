@@ -84,3 +84,5 @@ Recognizing Limitations: Understanding ChatGPT's biases, potential for misinform
 
 ![image](https://github.com/user-attachments/assets/f4f1a371-0617-4518-892e-5b5ca1b16f41)
 
+
+> Relevance ensures the response aligns with the context and intent of the prompt.
