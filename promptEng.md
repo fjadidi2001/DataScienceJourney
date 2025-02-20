@@ -120,3 +120,6 @@ Now it’s time to highlight a suggested solution structure
 
 ![image](https://github.com/user-attachments/assets/01c0029f-a2e1-43a9-a98a-ccb06c3b39e3)
 
+
+
+![image](https://github.com/user-attachments/assets/2c06e457-b112-4767-8f67-18e3590cdd94)
