@@ -21,3 +21,6 @@ It mirrors the way we are, as humans, approach problem-solving: by breaking down
 
 
  **using Zero-shot for a quick reply, One-shot for guided responses, Few-shot for pattern-driven answers, or COT for methodical solutions**
+
+
+
