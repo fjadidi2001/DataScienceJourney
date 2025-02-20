@@ -98,3 +98,6 @@ Recognizing Limitations: Understanding ChatGPT's biases, potential for misinform
 > Delimiters in prompts, such as quotation marks or parentheses, do not actually speed up the response time of the model.
 > Quotation marks are a powerful tool for guiding ChatGPT's interpretation and producing responses that are focused and useful.
 
+
+
+The model's limitations become apparent when tackling discontinuous tasks that demand creativity, such as crafting jokes, developing hypotheses, or inventing unique writing styles. These tasks often require a level of innovative thinking and non-linear problem-solving that the model struggles to replicate. Instead, it may be more effective to concentrate on incremental tasks that can benefit from a systematic, step-by-step methodology. These include writing summaries, answering questions, or emulating existing writing styles through one-shot or few-shot learning techniques, where the model can leverage specific examples to generate relevant and coherent outputs.
