@@ -80,7 +80,7 @@ Recognizing Limitations: Understanding ChatGPT's biases, potential for misinform
 
 > Whether you want a concise summary or an in-depth analysis, controlling the length of your response is vital. This ensures that the information you receive is as detailed or as brief as you require
 
->Effectively limiting response length is an essential skill for creating effective prompts. Without a specified limit, large language models like ChatGPT typically produce very extensive responses, often far exceeding the anticipated length.
+> Effectively limiting response length is an essential skill for creating effective prompts. Without a specified limit, large language models like ChatGPT typically produce very extensive responses, often far exceeding the anticipated length.
 
 ![image](https://github.com/user-attachments/assets/f4f1a371-0617-4518-892e-5b5ca1b16f41)
 
