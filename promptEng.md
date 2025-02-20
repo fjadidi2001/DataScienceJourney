@@ -111,3 +111,5 @@ The model's limitations become apparent when tackling discontinuous tasks that d
 
 
 Now it’s time to highlight a suggested solution structure
+
+![image](https://github.com/user-attachments/assets/d5a07f21-aa89-4fc8-94c4-466528d4bc79)
