@@ -101,3 +101,8 @@ Recognizing Limitations: Understanding ChatGPT's biases, potential for misinform
 
 
 The model's limitations become apparent when tackling discontinuous tasks that demand creativity, such as crafting jokes, developing hypotheses, or inventing unique writing styles. These tasks often require a level of innovative thinking and non-linear problem-solving that the model struggles to replicate. Instead, it may be more effective to concentrate on incremental tasks that can benefit from a systematic, step-by-step methodology. These include writing summaries, answering questions, or emulating existing writing styles through one-shot or few-shot learning techniques, where the model can leverage specific examples to generate relevant and coherent outputs.
+
+
+>  Actively avoiding stereotypes and promoting a diversity of perspectives in your prompts can help mitigate the biases inherent in the model’s training data, leading to more inclusive and unbiased humor.
+
+
