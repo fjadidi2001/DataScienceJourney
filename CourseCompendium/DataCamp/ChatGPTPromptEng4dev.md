@@ -1,5 +1,7 @@
-```
 # Create the OpenAI client: you can leave "<OPENAI_API_TOKEN>" as is
+
+
+```
 client = OpenAI(api_key="<OPENAI_API_TOKEN>")
 
 # Define the conversation messages
