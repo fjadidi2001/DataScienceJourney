@@ -30,3 +30,4 @@ def get_response(prompt):
 response = get_response("poem about ChatGPT.")
 print(response)
 ```
+# modify the prompt you used in the previous exercise
