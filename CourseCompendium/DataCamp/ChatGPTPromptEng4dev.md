@@ -31,3 +31,14 @@ response = get_response("poem about ChatGPT.")
 print(response)
 ```
 # modify the prompt you used in the previous exercise
+```
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Craft a prompt that follows the instructions
+prompt = "write a poem in basic English that a child can understand."
+
+# Get the response
+response = get_response(prompt)
+
+print(response)
+```
