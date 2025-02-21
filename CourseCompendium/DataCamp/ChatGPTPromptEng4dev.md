@@ -1,5 +1,4 @@
-# Create the OpenAI client: you can leave "<OPENAI_API_TOKEN>" as is
-
+# Create the OpenAI client
 
 ```
 client = OpenAI(api_key="<OPENAI_API_TOKEN>")
