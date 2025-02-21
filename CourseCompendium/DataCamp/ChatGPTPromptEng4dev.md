@@ -1,5 +1,4 @@
 # Create the OpenAI client
-
 ```
 client = OpenAI(api_key="<OPENAI_API_TOKEN>")
 
