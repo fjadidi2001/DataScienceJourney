@@ -42,3 +42,4 @@ response = get_response(prompt)
 
 print(response)
 ```
+> Clear and concise prompts enhance the model's output and ensure successful task completion. 
