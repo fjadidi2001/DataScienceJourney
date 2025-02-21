@@ -16,3 +16,4 @@ response = client.chat.completions.create(
 print(response.choices[0].message.content)
 
 ```
+# create a get_response() function that receives a prompt as input and returns the response as an output,
