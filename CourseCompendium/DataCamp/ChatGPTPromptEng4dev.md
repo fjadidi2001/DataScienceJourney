@@ -455,7 +455,8 @@ print(response)
 ```
 
 
-##
+## Creating a dual-prompt get_response() function
+
 
 ```
 client = OpenAI(api_key="<OPENAI_API_TOKEN>")
