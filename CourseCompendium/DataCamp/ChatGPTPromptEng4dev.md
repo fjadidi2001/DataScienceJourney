@@ -569,3 +569,17 @@ response = response.choices[0].message.content
 print(response)
 ```
 ## Providing context through system prompt
+
+```
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Define the system prompt
+system_prompt =f"instruct the chatbot to be a customer service chatbot for a delivery service that responds in a gentle way and point to a service description```{service_description}```" 
+
+user_prompt = "What benefits does MyPersonalDelivery offer?"
+
+# Get the response to the user prompt
+response = get_response(system_prompt, user_prompt)
+
+print(response)
+```
