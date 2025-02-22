@@ -212,3 +212,4 @@ prompt = example + question
 response = get_response(prompt)
 print(response)
 ```
+# Self-consistency prompts
