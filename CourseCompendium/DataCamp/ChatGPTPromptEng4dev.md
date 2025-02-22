@@ -230,3 +230,4 @@ response = get_response(prompt)
 print(response)
 ```
 
+![image](https://github.com/user-attachments/assets/9212641f-d702-4a0e-97ac-1d7c7722391c)
