@@ -181,3 +181,4 @@ prompt = f"""The code delimited by triple backticks, check these steps:
 response = get_response(prompt)
 print(response)
 ```
+# Reasoning with chain-of-thought prompts
