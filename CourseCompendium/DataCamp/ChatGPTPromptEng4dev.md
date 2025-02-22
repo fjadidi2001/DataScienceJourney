@@ -368,6 +368,7 @@ print("Ticket: ", ticket)
 print("Class: ", response)
 ```
 
+## Customer support ticket analysis
 
 ```
 client = OpenAI(api_key="<OPENAI_API_TOKEN>")
