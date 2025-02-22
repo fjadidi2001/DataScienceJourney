@@ -321,4 +321,17 @@ response = get_response(prompt)
 print("English:", marketing_message)
 print(response)
 ```
-# Tone adjustment for email marketing
+## Tone adjustment for email marketing
+```
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Craft a prompt to change the email's tone
+prompt = f"""transforms the sample_email by changing its tone to be professional, positive, and user-centric ```{sample_email}```
+
+"""
+
+response = get_response(prompt)
+
+print("Before transformation: \n", sample_email)
+print("After transformation: \n", response)
+```
