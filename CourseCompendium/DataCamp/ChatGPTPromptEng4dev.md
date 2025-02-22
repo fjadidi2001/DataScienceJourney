@@ -335,3 +335,21 @@ response = get_response(prompt)
 print("Before transformation: \n", sample_email)
 print("After transformation: \n", response)
 ```
+
+
+
+
+```
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Craft a prompt to transform the text
+prompt = f"""step 1: proofreads the text without changing its structure
+ step2: adjusts the text tone to be formal and friendly
+ ```{text}```
+"""
+
+response = get_response(prompt)
+
+print("Before transformation:\n", text)
+print("After transformation:\n", response)
+```
