@@ -512,3 +512,17 @@ response_2 = get_response(refined_system_prompt, "Can you help me track my recen
 print("Response 1: ", response_1)
 print("Response 2: ", response_2)
 ```
+
+
+## Learning advisor chatbot
+```
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Craft the system_prompt using the role-playing approach
+system_prompt = "role of a learning advisor and the instruction to recommend beginner and advanced textbooks based on their background"
+
+user_prompt = "Hello there! I'm a beginner with a marketing background, and I'm really interested in learning about Python, data analytics, and machine learning. Can you recommend some books?"
+
+response = get_response(system_prompt, user_prompt)
+print(response)
+```
