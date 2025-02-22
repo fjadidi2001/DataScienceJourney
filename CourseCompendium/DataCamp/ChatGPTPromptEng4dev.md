@@ -568,3 +568,4 @@ response = client.chat.completions.create(
 response = response.choices[0].message.content
 print(response)
 ```
+## Providing context through system prompt
