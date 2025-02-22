@@ -234,8 +234,8 @@ print(response)
 
 ## Basic Iterative prompt engineering
 
-```client = OpenAI(api_key="<OPENAI_API_TOKEN>")
-
+```
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
 # Refine the following prompt
 prompt = """Give me a table with three columns for the top 10 pre-trained language models
 the columns name should be model name, release year, and owning company.
