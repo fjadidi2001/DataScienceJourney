@@ -147,3 +147,17 @@ print(response)
 ```
 # Multi-step prompt to plan a trip
 ```
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Create a prompt detailing steps to plan the trip
+prompt = """Plan a trip for beach vacation:
+            Step 0: four potential locations
+            Step 1: accommodation options
+            Step 2: activities
+            Step 3: evaluation of the pros and cons.
+"""
+
+response = get_response(prompt)
+print(response)
+
+```
