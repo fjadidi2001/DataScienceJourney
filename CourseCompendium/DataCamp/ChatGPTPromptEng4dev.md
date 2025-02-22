@@ -193,3 +193,4 @@ A: Let's thinkin step-by-step
 response = get_response(prompt)
 print(response)
 ```
+# One-shot chain-of-thought prompts
