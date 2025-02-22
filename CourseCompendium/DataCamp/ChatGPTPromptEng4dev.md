@@ -262,4 +262,3 @@ They sat and ate their meal ->
 response = get_response(prompt)
 print(response)
 ```
-
