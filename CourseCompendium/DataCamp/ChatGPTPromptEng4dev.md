@@ -246,3 +246,19 @@ print(response)```
 
 ### Iterative prompt engineering for few-shot prompts
 
+```
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Refine the following prompt
+prompt = """
+Receiving a promotion at work made me feel on top of the world -> Happiness
+The movie's ending left me with a heavy feeling in my chest -> Sadness
+Walking alone in the dark alley sent shivers down my spine -> Fear
+Time flies like an arrow -> No explicit emotion
+
+They sat and ate their meal ->
+"""
+
+response = get_response(prompt)
+print(response)
+```
