@@ -106,3 +106,14 @@ response = get_response(prompt)
 print(response)
 ```
 # Create a one-shot prompt
+```
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Create a one-shot prompt
+prompt = """A: set number one is {1, 3, 7, 12, 19} B: the odd numbers from this set is:  {1, 3, 7, 19}
+A: set number two is {3, 5, 11, 12, 16} B:
+"""
+
+response = get_response(prompt)
+print(response)
+```
