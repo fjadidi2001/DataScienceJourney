@@ -182,3 +182,14 @@ response = get_response(prompt)
 print(response)
 ```
 # Reasoning with chain-of-thought prompts
+```
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Create the chain-of-thought prompt
+prompt = """Q:determine my friend's father's age in 10 years, given that he is currently twice my friend's age, and my friend is 20.
+A: Let's thinkin step-by-step
+"""
+
+response = get_response(prompt)
+print(response)
+```
