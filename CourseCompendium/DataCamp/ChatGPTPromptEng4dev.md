@@ -281,3 +281,14 @@ print("Summarized report: \n", response)
 
 
 # Product features summarization
+```
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Craft a prompt to summarize the product description
+prompt = f""" summarizes the product_description in no more than five bullet points  ```{product_description}```"""
+
+response = get_response(prompt)
+
+print("Original description: \n", product_description)
+print("Summarized description: \n", response)
+```
