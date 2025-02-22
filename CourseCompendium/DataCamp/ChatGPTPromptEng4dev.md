@@ -263,7 +263,8 @@ response = get_response(prompt)
 print(response)
 ```
 
-# 
+# Market research report summarization
+
 
 ```
 client = OpenAI(api_key="<OPENAI_API_TOKEN>")
