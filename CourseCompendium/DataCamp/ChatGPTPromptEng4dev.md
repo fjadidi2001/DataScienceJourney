@@ -526,3 +526,6 @@ user_prompt = "Hello there! I'm a beginner with a marketing background, and I'm 
 response = get_response(system_prompt, user_prompt)
 print(response)
 ```
+
+
+## Adding guidelines for the learning advisor chatbot
