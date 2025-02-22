@@ -262,3 +262,18 @@ They sat and ate their meal ->
 response = get_response(prompt)
 print(response)
 ```
+
+# 
+
+```
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Craft a prompt to summarize the report
+prompt = f"""Summarizes the report in maximum five sentences while related to AI and data privacy
+```{report}```
+"""
+
+response = get_response(prompt)
+
+print("Summarized report: \n", response)
+```
