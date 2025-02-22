@@ -294,7 +294,7 @@ print("Summarized description: \n", response)
 ```
 
 
-
+## transform concise product descriptions into engaging and detailed narratives for the e-commerce platform
 ```
 client = OpenAI(api_key="<OPENAI_API_TOKEN>")
 
