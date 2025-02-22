@@ -492,3 +492,5 @@ system_prompt = chatbot_purpose + audience_guidelines + tone_guidelines
 response = get_response(system_prompt, "My new headphones aren't connecting to my device")
 print(response)
 ```
+
+## Behavioral control of a customer support chatbot
