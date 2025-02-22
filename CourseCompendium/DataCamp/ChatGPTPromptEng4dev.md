@@ -441,3 +441,15 @@ response = get_response(prompt)
 print(response)
 ```
 ## Explaining code step by step
+
+```
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Craft a chain-of-thought prompt that asks the model to explain what the function does
+prompt = f'''explain the given function step by step
+
+```{function}```'''
+ 
+response = get_response(prompt)
+print(response)
+```
