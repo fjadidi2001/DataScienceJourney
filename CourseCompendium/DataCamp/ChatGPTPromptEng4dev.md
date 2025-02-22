@@ -423,3 +423,20 @@ print(response)
 ```
 
 ## Modifying code with multi-step prompts
+
+```
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+function = """def calculate_area_rectangular_floor(width, length):
+					return width*length"""
+
+# Craft a multi-step prompt that asks the model to adjust the function
+prompt = f'''
+step 1: modify the function ccording to the specified requirements
+step 2: test if the inputs to the functions are positive, and if not, display appropriate error messages, otherwise return the area and perimeter of the rectangle
+```{function}```
+'''
+
+response = get_response(prompt)
+print(response)
+```
