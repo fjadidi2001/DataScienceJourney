@@ -68,3 +68,21 @@ response = get_response(prompt)
 print(response)
 ```
 # Customizing output format
+```
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Create the instructions
+instructions = "you will be provided with a text delimited by triple backticks. generate a sutable title for it. and also detrmine the language of it"
+
+# Create the output format
+output_format = """
+                - Text: <text we want to title>
+                - Language:<the determined language>
+                - Title:<the generated title>
+                """ 
+
+# Create the final prompt
+prompt = instructions + output_format + f"```{text}```"
+response = get_response(prompt)
+print(response)
+```
