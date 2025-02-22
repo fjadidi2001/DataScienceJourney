@@ -402,3 +402,6 @@ write a Python function that receives a list of 12 floats representing monthly s
 response = get_response(prompt)
 print(response)
 ```
+
+
+## Input-output examples for code generation
