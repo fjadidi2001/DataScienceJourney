@@ -367,3 +367,21 @@ response = get_response(prompt)
 print("Ticket: ", ticket)
 print("Class: ", response)
 ```
+
+
+```
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Craft a few-shot prompt to get the ticket's entities
+prompt = f"""
+ticket_1 = entities_1
+ticket_2 = entities_2
+ticket_3 = entities_3
+ticket_4 = 
+"""
+
+response = get_response(prompt)
+
+print("Ticket: \n", ticket_4)
+print("Entities: \n", response)
+```
