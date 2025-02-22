@@ -162,3 +162,20 @@ print(response)
 
 ```
 # Analyze solution correctness
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+code = """
+def calculate_rectangle_area(length, width):
+    area = length * width
+    return area
+"""
+
+# Create a prompt that analyzes correctness of the code
+prompt = f"""The code delimited by triple backticks, check these steps:
+            Step 1: nalyze a function for correct syntax,
+            Step 2: receiving two inputs,
+            Step 3: returning one output
+        ```{code}```"""
+response = get_response(prompt)
+print(response)
+```
