@@ -278,3 +278,6 @@ response = get_response(prompt)
 
 print("Summarized report: \n", response)
 ```
+
+
+# Product features summarization
