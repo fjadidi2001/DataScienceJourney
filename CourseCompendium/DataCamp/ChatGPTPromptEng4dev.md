@@ -354,3 +354,5 @@ response = get_response(prompt)
 print("Before transformation:\n", text)
 print("After transformation:\n", response)
 ```
+
+## Customer support ticket routing
