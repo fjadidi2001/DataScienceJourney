@@ -474,3 +474,5 @@ def get_response(system_prompt, user_prompt):
 response = get_response("You are a helpful assistant.", "Hello, how are you?")
 print(response)
 ```
+
+## Customer support chatbot
