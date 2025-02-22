@@ -309,3 +309,4 @@ response = get_response(prompt)
 print("Original description: \n", product_description)
 print("Expanded description: \n", response)
 ```
+## Translation for multilingual communication
