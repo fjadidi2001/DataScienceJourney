@@ -161,7 +161,9 @@ response = get_response(prompt)
 print(response)
 
 ```
+
 # Analyze solution correctness
+```
 client = OpenAI(api_key="<OPENAI_API_TOKEN>")
 
 code = """
