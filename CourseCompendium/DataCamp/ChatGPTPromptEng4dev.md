@@ -356,3 +356,14 @@ print("After transformation:\n", response)
 ```
 
 ## Customer support ticket routing
+```
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Craft a prompt to classify the ticket
+prompt = f"""classifies the ticket as technical issue, billing inquiry, or product feedback, without providing anything else in the response```{ticket}"""
+
+response = get_response(prompt)
+
+print("Ticket: ", ticket)
+print("Class: ", response)
+```
