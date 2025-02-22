@@ -386,3 +386,6 @@ response = get_response(prompt)
 print("Ticket: \n", ticket_4)
 print("Entities: \n", response)
 ```
+
+
+## Code generation with problem description
