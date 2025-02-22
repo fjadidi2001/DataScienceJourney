@@ -136,4 +136,4 @@ response = client.chat.completions.create(
 print(response.choices[0].message.content)
 ```
 # Single-step prompt to plan a trip
-
+```
