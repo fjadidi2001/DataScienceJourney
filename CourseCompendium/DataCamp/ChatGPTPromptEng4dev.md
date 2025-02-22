@@ -421,3 +421,5 @@ prompt = f""" infer the Python function that maps the inputs to the outputs in t
 response = get_response(prompt)
 print(response)
 ```
+
+## Modifying code with multi-step prompts
