@@ -232,7 +232,7 @@ print(response)
 # Iterative prompt engineering
 ![image](https://github.com/user-attachments/assets/9212641f-d702-4a0e-97ac-1d7c7722391c)
 
-## Basic Iterative prompt engineering
+### Basic Iterative prompt engineering
 
 ```
 client = OpenAI(api_key="<OPENAI_API_TOKEN>")
