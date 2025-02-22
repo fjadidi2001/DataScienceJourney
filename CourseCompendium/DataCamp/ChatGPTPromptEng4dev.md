@@ -546,3 +546,6 @@ response = get_response(system_prompt, user_prompt)
 print(response)
 
 ```
+
+
+## Providing context through sample conversations
