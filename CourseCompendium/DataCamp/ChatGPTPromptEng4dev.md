@@ -321,3 +321,4 @@ response = get_response(prompt)
 print("English:", marketing_message)
 print(response)
 ```
+# Tone adjustment for email marketing
