@@ -292,3 +292,20 @@ response = get_response(prompt)
 print("Original description: \n", product_description)
 print("Summarized description: \n", response)
 ```
+
+
+
+```
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Craft a prompt to expand the product's description
+prompt = f"""expands the product_description pre-loaded string, and writes a one paragraph comprehensive overview capturing the key information of the product: unique features, benefits, and potential applications.
+
+```{product_description}
+"""
+
+response = get_response(prompt)
+
+print("Original description: \n", product_description)
+print("Expanded description: \n", response)
+```
