@@ -87,3 +87,21 @@ response = get_response(prompt)
 print(response)
 ```
 # Conditional prompts
+```
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+
+# Create the instructions
+instructions = " the language and the number of sentences of the given delimited text; then if the text contains more than one sentence, generate a suitable title for it, otherwise, write 'N/A' for the title"
+
+# Create the output format
+output_format = """
+                - Text: <text we want to title>
+                - Language:<the determined language>
+                - Number of Sentences:<number of sentences>
+                - Title:<the generated title>
+                """ 
+
+prompt = instructions + output_format + f"```{text}```"
+response = get_response(prompt)
+print(response)
+```
