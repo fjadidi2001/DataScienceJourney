@@ -145,3 +145,4 @@ prompt = "plan a beach vacation."
 response = get_response(prompt)
 print(response)
 ```
+# Multi-step prompt to plan a trip
