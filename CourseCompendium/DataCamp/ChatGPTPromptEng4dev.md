@@ -229,20 +229,22 @@ prompt = self_consistency_instruction + problem_to_solve
 response = get_response(prompt)
 print(response)
 ```
+
 # Iterative prompt engineering
+
 ![image](https://github.com/user-attachments/assets/9212641f-d702-4a0e-97ac-1d7c7722391c)
 
-### Basic Iterative prompt engineering
 
+### Basic Iterative prompt engineering
 ```
 client = OpenAI(api_key="<OPENAI_API_TOKEN>")
 # Refine the following prompt
 prompt = """Give me a table with three columns for the top 10 pre-trained language models
 the columns name should be model name, release year, and owning company.
 """
-
 response = get_response(prompt)
-print(response)```
+print(response)
+```
 
 ### Iterative prompt engineering for few-shot prompts
 ```
