@@ -66,5 +66,4 @@ prompt = "generate a table of 10 books with science fiction subject contains col
 # Get the response
 response = get_response(prompt)
 print(response)
-
 ```
