@@ -105,4 +105,4 @@ prompt = instructions + output_format + f"```{text}```"
 response = get_response(prompt)
 print(response)
 ```
-# Create a one-shot 
+# Create a one-shot prompt
