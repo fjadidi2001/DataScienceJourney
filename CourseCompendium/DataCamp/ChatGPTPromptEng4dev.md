@@ -57,3 +57,4 @@ print(response)
 
 - Using f-strings: You practiced embedding variables into prompts using Python's f-strings, allowing for dynamic prompt creation. For example:
 
+# Generating a table
