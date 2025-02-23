@@ -547,3 +547,33 @@ print(embedding1.shape == embedding2.shape)
 
 
 37. Using semantic search
+```
+from sentence_transformers import SentenceTransformer, util
+
+# Example sentences
+sentences = [
+    "I am looking for a book reader application for my Mac.",
+    "Where can I find a good PDF viewer?",
+    "I need a desktop book reader for Mac.",
+    "What are some good Mac apps for reading books?"
+]
+
+# Load the embedding model
+embedder = SentenceTransformer("all-MiniLM-L6-v2")
+
+# Generate embeddings for sentences
+sentence_embeddings = embedder.encode(sentences)
+
+# Define the query
+query = "I need a desktop book reader for Mac"
+
+# Generate query embedding
+query_embedding = embedder.encode([query])[0]
+
+# Compare embeddings
+hits = util.semantic_search(query_embedding, sentence_embeddings, top_k=2)
+
+# Print the top results
+for hit in hits[0]:
+    print(sentences[hit["corpus_id"]], "(Score: {:.4f})".format(hit["score"]))
+```
