@@ -502,3 +502,20 @@ generated_text = tokenizer.decode(output[0])
 print(generated_text)
 ```
 35. Generating a caption for an image
+```
+# Get the processor and model
+
+processor = AutoProcessor.from_pretrained("microsoft/git-base-coco")
+model = AutoModelForCausalLM.from_pretrained("microsoft/git-base-coco")
+
+# Process the image
+pixels = processor(images=image, return_tensors="pt").pixel_values
+
+# Generate the ids
+output = model.generate(pixel_values=pixels)
+
+# Decode the output
+caption = processor.batch_decode(output)
+
+print(caption[0])
+```
