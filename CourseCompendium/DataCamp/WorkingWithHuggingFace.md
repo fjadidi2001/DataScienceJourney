@@ -170,3 +170,4 @@ output = classifier("Where is the capital of France?, Brittany is known for thei
 
 print(output)
 ```
+17. Zero-shot classification
