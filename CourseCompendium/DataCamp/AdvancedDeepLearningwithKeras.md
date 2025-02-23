@@ -42,3 +42,7 @@ output_tensor = Dense(1)(input_tensor)
 from tensorflow.keras.models import Model
 model = Model(input_tensor, output_tensor)
 ```
+5. Compile a model
+```
+model.compile(optimizer="adam", loss="mean_absolute_error")
+```
