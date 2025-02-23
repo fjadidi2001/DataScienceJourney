@@ -196,3 +196,13 @@ print(f"Original text length: {len(original_text)}")
 print(f"Summary length: {len(summary_text[0]['summary_text'])}")
 ```
 19. Using min_length and max_length
+```
+# Create a short summarizer
+short_summarizer = pipeline(task="summarization", model="cnicu/t5-small-booksum", min_length=1, max_length=10)
+
+# Summarize the input text
+short_summary_text = short_summarizer(original_text)
+
+# Print the short summary
+print(short_summary_text[0]["summary_text"])
+```
