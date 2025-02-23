@@ -501,3 +501,4 @@ generated_text = tokenizer.decode(output[0])
 
 print(generated_text)
 ```
+35. Generating a caption for an image
