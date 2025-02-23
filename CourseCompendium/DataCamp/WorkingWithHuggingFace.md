@@ -396,3 +396,4 @@ open_wer = wer.compute(predictions=[open_pred], references=[true_sentence])
 
 print(f"The WER for the Meta model is {meta_wer} and for the OpenAI model is {open_wer}")
 ```
+30. Iterating over a dataset
