@@ -120,3 +120,4 @@ strength_lookup_flat = Flatten()(strength_lookup)
 # Combine the operations into a single, re-usable model
 team_strength_model = Model(teamid_in, strength_lookup_flat, name='Team-Strength-Model')
 ```
+11. Defining two inputs
