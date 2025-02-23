@@ -250,3 +250,4 @@ data = plt.imread('model.png')
 plt.imshow(data)
 plt.show()
 ```
+21. Add the model predictions to the tournament data
