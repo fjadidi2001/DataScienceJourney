@@ -52,3 +52,9 @@ dataset_builder = load_dataset_builder("wikidata_extract")
 dataset_info = dataset_builder.info.features
 ```
 8. Loading datasets
+```
+# Load the train portion of the dataset
+wikipedia = load_dataset("wikimedia/wikipedia", language="20231101.en", split="train")
+
+print(f"The length of the dataset is {len(wikipedia)}")
+```
