@@ -243,3 +243,5 @@ summaries = summarizer(text_to_summarize[:3], truncation=True)
 for i in range(0,3):
   print(f"Summary {i+1}: {summaries[i]['summary_text']}")
 ```
+
+21. Processing image data
