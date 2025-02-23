@@ -39,3 +39,5 @@ model = AutoModel.from_pretrained(modelId)
 # Save the model
 model.save_pretrained(save_directory=f"models/{modelId}")
 ```
+7. Inspecting datasets
+
