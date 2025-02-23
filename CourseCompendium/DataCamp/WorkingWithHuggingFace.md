@@ -51,3 +51,4 @@ dataset_builder = load_dataset_builder("wikidata_extract")
 # Extract the features
 dataset_info = dataset_builder.info.features
 ```
+8. Loading datasets
