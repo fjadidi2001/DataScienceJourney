@@ -115,3 +115,15 @@ print(f"Bert Output: {bert_output[0]['label']}")
 print(f"Distil Output: {distil_output[0]['label']}")
 ```
 13. Normalizing text
+```
+# Import the AutoTokenizer
+from transformers import AutoTokenizer
+
+# Download the tokenizer
+tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
+
+# Normalize the input string
+output = tokenizer.backend_tokenizer.normalizer.normalize_str(input_string)
+
+print(output)
+```
