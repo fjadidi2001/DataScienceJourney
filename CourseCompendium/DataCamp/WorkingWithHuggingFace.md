@@ -304,3 +304,15 @@ audio_file = audio_file.cast_column("audio", Audio(sampling_rate=16_000))
 print("Old sampling rate:", old_sampling_rate)
 print("New sampling rate:", audio_file[1]["audio"]["sampling_rate"])
 ```
+
+```
+# Create a list of durations
+old_durations_list = []
+
+# Loop over the dataset
+for row in dataset["path"]:
+    old_durations_list.append(librosa.get_duration(path=row))
+
+# Create a new column
+dataset = dataset.add_column("duration", old_durations_list)
+```
