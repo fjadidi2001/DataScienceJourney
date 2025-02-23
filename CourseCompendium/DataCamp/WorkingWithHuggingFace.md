@@ -282,3 +282,12 @@ results = dqa(image=image, question=question)
 print(results)
 ```
 24. Visual question and answering
+```
+# Create pipeline
+vqa = pipeline(task="visual-question-answering", model="dandelin/vilt-b32-finetuned-vqa")
+
+# Use image and question in vqa
+results = vqa(image=image, question=question)
+
+print(results)
+```
