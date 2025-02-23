@@ -164,3 +164,4 @@ model = Model([team_in_1, team_in_2], score_diff)
 # Compile the model
 model.compile(optimizer='adam', loss='mean_absolute_error')
 ```
+15. Fit the model to the regular season training data
