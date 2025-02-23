@@ -19,3 +19,4 @@ output_layer = Dense(1)
 # Connect the dense layer to the input_tensor
 output_tensor = output_layer(input_tensor)
 ```
+3. Output layers
