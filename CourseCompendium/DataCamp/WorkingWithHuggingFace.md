@@ -41,3 +41,13 @@ model.save_pretrained(save_directory=f"models/{modelId}")
 ```
 7. Inspecting datasets
 
+```
+# Load the module
+from datasets import load_dataset_builder
+
+# Create the dataset builder
+dataset_builder = load_dataset_builder("wikidata_extract")
+
+# Extract the features
+dataset_info = dataset_builder.info.features
+```
