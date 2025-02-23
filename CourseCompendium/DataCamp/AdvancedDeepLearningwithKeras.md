@@ -63,3 +63,12 @@ data = plt.imread('model.png')
 plt.imshow(data)
 plt.show()
 ```
+7. Fit the model to the tournament basketball data
+```
+# Now fit the model
+model.fit(games_tourney_train['seed_diff'], games_tourney_train['score_diff'],
+          epochs=1,
+          batch_size=128,
+          validation_split=0.10,
+          verbose=True)
+```
