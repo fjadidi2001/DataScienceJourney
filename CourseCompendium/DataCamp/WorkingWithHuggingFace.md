@@ -58,3 +58,4 @@ wikipedia = load_dataset("wikimedia/wikipedia", language="20231101.en", split="t
 
 print(f"The length of the dataset is {len(wikipedia)}")
 ```
+9. Manipulating datasets
