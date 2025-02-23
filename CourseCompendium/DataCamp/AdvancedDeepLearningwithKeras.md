@@ -298,3 +298,4 @@ model = Model(input_tensor, output_tensor)
 # Compile the model
 model.compile(loss='mean_absolute_error', optimizer='adam')
 ```
+26. Fit a model with two outputs
