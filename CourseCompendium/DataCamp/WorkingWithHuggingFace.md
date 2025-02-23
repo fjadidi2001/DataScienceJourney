@@ -368,3 +368,4 @@ prediction = classifier(audio)
 
 print(f"Predicted language is '{prediction[0]['label'].upper()}' for the sentence '{sentence}'")
 ```
+28. Instantiating an ASR pipeline
