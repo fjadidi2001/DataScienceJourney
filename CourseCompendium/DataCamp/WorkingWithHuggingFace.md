@@ -145,3 +145,4 @@ distil_tokens = distil_tokenizer.tokenize(text=input)
 print(f"GPT tokenizer: {gpt_tokens}")
 print(f"DistilBERT tokenizer: {distil_tokens}")
 ```
+15. Grammatical correctness
