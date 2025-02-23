@@ -11,3 +11,21 @@
 !pip install transformers datasets
 # Followed by the installation of a machine learning framework, e.g., PyTorch
 ```
+5. Searching the Hub with Python
+```
+# Create the instance of the API
+api = HfApi()
+
+# Return the filtered list from the Hub
+models = api.list_models(
+    filter=ModelFilter(task="text-classification"),
+    sort="downloads",
+    direction=-1,
+  	limit=1
+)
+
+# Store as a list
+modelList = list(models)
+
+print(modelList[0].modelId)
+```
