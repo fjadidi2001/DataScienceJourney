@@ -132,4 +132,5 @@ team_in_1 = Input(shape=(1,), name='Team-1-In')
 team_in_2 = Input(shape=(1,), name='Team-2-In')
 
 ```
-12. 
+12. Lookup both inputs in the same model
+
