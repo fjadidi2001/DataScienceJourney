@@ -522,3 +522,4 @@ print(caption[0])
 > Embeddings are numerical representations of various types of data, including text, images, audio, and more. They help computers understand the underlying patterns and context of a piece of text, image, or audio.
 > Embeddings are a fantastic tool for making recommendation systems more personalized and relevant to the user
 
+36. Generate embeddings for a sentence
