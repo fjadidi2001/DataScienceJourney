@@ -281,3 +281,4 @@ results = dqa(image=image, question=question)
 
 print(results)
 ```
+24. Visual question and answering
