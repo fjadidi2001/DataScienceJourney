@@ -256,3 +256,14 @@ imgplot = plt.imshow(cropped_image)
 plt.show()
 ```
 22. Creating an image classifier
+```
+# Create the pipeline
+image_classifier = pipeline(task="image-classification", 
+            model="abhishek/autotrain_fashion_mnist_vit_base")
+
+# Predict the class of the image
+results = image_classifier(cropped_image)
+
+# Print the results
+print(results[0]["label"])
+```
