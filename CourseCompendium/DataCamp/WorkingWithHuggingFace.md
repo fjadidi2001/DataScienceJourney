@@ -226,3 +226,7 @@ long_summary_text = long_summarizer(original_text)
 # Print the long summary
 print(long_summary_text[0]["summary_text"])
 ```
+
+
+20. Summarizing several inputs
+
