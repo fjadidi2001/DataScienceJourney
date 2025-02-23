@@ -291,3 +291,4 @@ results = vqa(image=image, question=question)
 
 print(results)
 ```
+25. Resampling audio files
