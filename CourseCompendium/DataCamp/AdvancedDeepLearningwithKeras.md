@@ -285,3 +285,16 @@ print(model.evaluate(games_tourney_test[['home', 'seed_diff', 'prediction']],
                games_tourney_test['score_diff'], verbose=False))
 ```
 25. Simple two-output model
+```
+# Define the input
+input_tensor = Input(shape=(2,))
+
+# Define the output
+output_tensor = Dense(2)(input_tensor)
+
+# Create a model
+model = Model(input_tensor, output_tensor)
+
+# Compile the model
+model.compile(loss='mean_absolute_error', optimizer='adam')
+```
