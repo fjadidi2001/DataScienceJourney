@@ -85,3 +85,4 @@ model_output = model_pipeline(input)
 
 print(f"Sentiment from task_pipeline: {task_output[0]['label']}; Sentiment from model_pipeline: {model_output[0]['label']}")
 ```
+11. Using AutoClasses
