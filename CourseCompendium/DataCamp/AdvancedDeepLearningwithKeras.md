@@ -234,3 +234,6 @@ model.fit([games_season['team_1'], games_season['team_2'], games_season['home']]
 print(model.evaluate([games_tourney['team_1'], games_tourney['team_2'], games_tourney['home']],
                games_tourney['score_diff'], verbose=False))
 ```
+
+20. Plotting models
+
