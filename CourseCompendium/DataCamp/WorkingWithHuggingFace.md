@@ -171,3 +171,15 @@ output = classifier("Where is the capital of France?, Brittany is known for thei
 print(output)
 ```
 17. Zero-shot classification
+```
+# Build the zero-shot classifier
+classifier = pipeline(task="zero-shot-classification", model="facebook/bart-large-mnli")
+
+# Create the list
+candidate_labels = ["politics", "science", "sports"]
+
+# Predict the output
+output = classifier(text, candidate_labels)
+
+print(f"Top Label: {output['labels'][0]} with score: {output['scores'][0]}")
+```
