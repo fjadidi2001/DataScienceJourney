@@ -479,3 +479,4 @@ results = classifier(text=text_example)
 
 print(results)
 ```
+34. Generating text from a text prompt
