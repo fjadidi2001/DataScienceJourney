@@ -542,6 +542,7 @@ print(embedding1.shape == embedding2.shape)
 ```
 
 <br>
+
 ![image](https://github.com/user-attachments/assets/7abf56ee-7b88-4ca4-9241-2b3b08e96a9f)
 
 
