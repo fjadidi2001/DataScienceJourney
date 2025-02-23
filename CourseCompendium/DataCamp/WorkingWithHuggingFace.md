@@ -437,3 +437,18 @@ openWER = wer.compute(predictions=output_df["openPred"], references=output_df["s
 print(f"The WER for the meta model is {metaWER} and for the open model is {openWER}")
 ```
 31. Preparing a dataset
+```
+# Import modules
+from transformers import AutoModelForSequenceClassification, AutoTokenizer
+
+model_name = "distilbert-base-uncased-finetuned-sst-2-english"
+
+# Load the model
+model = AutoModelForSequenceClassification.from_pretrained(model_name)
+
+# Load the tokenizer
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+# Use tokenizer on text
+dataset = dataset.map(lambda row: tokenizer(row["text"], padding=True, max_length=512, truncation=True), keep_in_memory=True)
+```
