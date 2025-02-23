@@ -209,3 +209,4 @@ team_2_strength = team_strength_model(team_in_2)
 out = Concatenate()([team_1_strength, team_2_strength, home_in])
 out = Dense(1)(out)
 ```
+18. Make a model and compile it
