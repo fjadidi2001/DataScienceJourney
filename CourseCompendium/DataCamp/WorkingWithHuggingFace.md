@@ -355,3 +355,16 @@ print("Old duration:", np.mean(old_durations_list))
 print("New duration:", np.mean(new_durations_list))
 ```
 27. Classifying audio files
+```
+# Create the pipeline
+classifier = pipeline(task="audio-classification", model="facebook/mms-lid-126")
+
+# Extract the sample
+audio = dataset[1]["audio"]["array"]
+sentence = dataset[1]["sentence"]
+
+# Predict the language
+prediction = classifier(audio)
+
+print(f"Predicted language is '{prediction[0]['label'].upper()}' for the sentence '{sentence}'")
+```
