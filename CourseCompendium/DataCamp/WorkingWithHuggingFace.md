@@ -385,3 +385,14 @@ print("META:", meta_pred)
 print("OPENAI:", open_pred)
 ```
 29. Word error rate
+```
+# Create the word error rate metric
+wer = load("wer")
+
+true_sentence = example["sentence"].lower()
+
+meta_wer = wer.compute(predictions=[meta_pred], references=[true_sentence])
+open_wer = wer.compute(predictions=[open_pred], references=[true_sentence])
+
+print(f"The WER for the Meta model is {meta_wer} and for the OpenAI model is {open_wer}")
+```
