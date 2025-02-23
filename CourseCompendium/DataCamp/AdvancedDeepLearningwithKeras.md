@@ -180,6 +180,8 @@ model.fit([input_1, input_2],
           validation_split=0.10,
           verbose=True)
 ```
+16. Evaluate the model on the tournament test data
+
 ```
 # Get team_1 from the tournament data
 input_1 = games_tourney['team_1']
