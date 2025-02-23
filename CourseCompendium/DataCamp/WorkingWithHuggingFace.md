@@ -267,3 +267,4 @@ results = image_classifier(cropped_image)
 # Print the results
 print(results[0]["label"])
 ```
+23. Document question and answering
