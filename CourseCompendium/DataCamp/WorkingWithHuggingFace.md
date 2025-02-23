@@ -304,6 +304,7 @@ audio_file = audio_file.cast_column("audio", Audio(sampling_rate=16_000))
 print("Old sampling rate:", old_sampling_rate)
 print("New sampling rate:", audio_file[1]["audio"]["sampling_rate"])
 ```
+26. Filtering out audio files
 
 ```
 # Create a list of durations
