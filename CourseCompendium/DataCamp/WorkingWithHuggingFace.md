@@ -99,3 +99,5 @@ output = sentimentAnalysis(input)
 
 print(f"Sentiment using AutoClasses: {output[0]['label']}")
 ```
+12. Comparing models with the pipeline
+
