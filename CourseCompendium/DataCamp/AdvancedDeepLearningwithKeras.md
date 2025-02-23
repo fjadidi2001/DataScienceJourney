@@ -142,3 +142,10 @@ team_1_strength = team_strength_model(team_in_1)
 team_2_strength = team_strength_model(team_in_2)
 ```
 13. Output layer using shared layer
+```
+# Import the Subtract layer from tensorflow.keras
+from tensorflow.keras.layers import Subtract
+
+# Create a subtract layer using the inputs from the previous exercise
+score_diff = Subtract()([team_1_strength, team_2_strength])
+```
