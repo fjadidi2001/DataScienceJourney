@@ -100,4 +100,10 @@ output = sentimentAnalysis(input)
 print(f"Sentiment using AutoClasses: {output[0]['label']}")
 ```
 12. Comparing models with the pipeline
+```
+# Create the pipeline
+distil_pipeline = pipeline(task="sentiment-analysis",model="distilbert-base-uncased-finetuned-sst-2-english")
 
+# Predict the sentiment
+distil_output = distil_pipeline(input_text)
+```
