@@ -29,3 +29,4 @@ modelList = list(models)
 
 print(modelList[0].modelId)
 ```
+6. Saving a model
