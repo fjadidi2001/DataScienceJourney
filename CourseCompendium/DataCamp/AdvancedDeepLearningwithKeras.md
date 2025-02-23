@@ -46,3 +46,4 @@ model = Model(input_tensor, output_tensor)
 ```
 model.compile(optimizer="adam", loss="mean_absolute_error")
 ```
+6. Visualize a model
