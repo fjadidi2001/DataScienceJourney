@@ -30,3 +30,12 @@ modelList = list(models)
 print(modelList[0].modelId)
 ```
 6. Saving a model
+```
+modelId = "distilbert-base-uncased-finetuned-sst-2-english"
+
+# Instantiate the AutoModel class
+model = AutoModel.from_pretrained(modelId)
+
+# Save the model
+model.save_pretrained(save_directory=f"models/{modelId}")
+```
