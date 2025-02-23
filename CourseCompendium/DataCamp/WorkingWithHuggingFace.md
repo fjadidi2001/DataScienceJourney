@@ -255,3 +255,4 @@ cropped_image = image_transforms.center_crop(image=image_array, size=(200, 200))
 imgplot = plt.imshow(cropped_image)
 plt.show()
 ```
+22. Creating an image classifier
