@@ -270,3 +270,4 @@ model = Model(input_tensor, output_tensor)
 # Compile the model
 model.compile(optimizer='adam', loss='mean_absolute_error')
 ```
+23. Fit the model
