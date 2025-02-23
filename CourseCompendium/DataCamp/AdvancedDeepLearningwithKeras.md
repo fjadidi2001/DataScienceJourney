@@ -23,15 +23,22 @@ output_tensor = output_layer(input_tensor)
 ```
 # Load layers
 from tensorflow.keras.layers import Input, Dense
-
-4. Build a model
-
-
-
 # Input layer
 input_tensor = Input(shape=(1,))
 
 # Create a dense layer and connect the dense layer to the input_tensor in one step
 # Note that we did this in 2 steps in the previous exercise, but are doing it in one step now
 output_tensor = Dense(1)(input_tensor)
+```
+
+4. Build a model
+```
+# Input/dense/output layers
+from tensorflow.keras.layers import Input, Dense
+input_tensor = Input(shape=(1,))
+output_tensor = Dense(1)(input_tensor)
+
+# Build the model
+from tensorflow.keras.models import Model
+model = Model(input_tensor, output_tensor)
 ```
