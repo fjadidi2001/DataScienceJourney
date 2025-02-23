@@ -195,3 +195,4 @@ summary_text = summarizer(original_text)
 print(f"Original text length: {len(original_text)}")
 print(f"Summary length: {len(summary_text[0]['summary_text'])}")
 ```
+19. Using min_length and max_length
