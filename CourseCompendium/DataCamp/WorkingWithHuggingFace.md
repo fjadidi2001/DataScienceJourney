@@ -146,3 +146,5 @@ print(f"GPT tokenizer: {gpt_tokens}")
 print(f"DistilBERT tokenizer: {distil_tokens}")
 ```
 15. Grammatical correctness
+> Text classification is the process of labeling an input text into a pre-defined category. This can take the form of sentiment - positive or negative - spam detection - spam or not spam - and even grammatical errors.
+
