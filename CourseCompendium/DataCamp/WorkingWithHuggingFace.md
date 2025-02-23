@@ -86,3 +86,16 @@ model_output = model_pipeline(input)
 print(f"Sentiment from task_pipeline: {task_output[0]['label']}; Sentiment from model_pipeline: {model_output[0]['label']}")
 ```
 11. Using AutoClasses
+```
+# Download the model and tokenizer
+model = AutoModelForSequenceClassification.from_pretrained("distilbert-base-uncased-finetuned-sst-2-english")
+tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased-finetuned-sst-2-english")
+
+# Create the pipeline
+sentimentAnalysis = pipeline(task="sentiment-analysis", model=model, tokenizer=tokenizer)
+
+# Predict the sentiment
+output = sentimentAnalysis(input)
+
+print(f"Sentiment using AutoClasses: {output[0]['label']}")
+```
