@@ -470,3 +470,12 @@ trainer.train()
 
 ```
 33. Using the fine-tuned model
+```
+# Create the classifier
+classifier = pipeline(task="sentiment-analysis", model="./fine_tuned_model")
+
+# Classify the text
+results = classifier(text=text_example)
+
+print(results)
+```
