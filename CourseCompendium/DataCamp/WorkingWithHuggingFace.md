@@ -102,8 +102,15 @@ print(f"Sentiment using AutoClasses: {output[0]['label']}")
 12. Comparing models with the pipeline
 ```
 # Create the pipeline
-distil_pipeline = pipeline(task="sentiment-analysis",model="distilbert-base-uncased-finetuned-sst-2-english")
+distil_pipeline = pipeline(task="sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english")
 
 # Predict the sentiment
 distil_output = distil_pipeline(input_text)
+
+# Create the second pipeline and predict the sentiment
+bert_pipeline = pipeline(task="sentiment-analysis", model="nlptown/bert-base-multilingual-uncased-sentiment")
+bert_output = bert_pipeline(input_text)
+
+print(f"Bert Output: {bert_output[0]['label']}")
+print(f"Distil Output: {distil_output[0]['label']}")
 ```
