@@ -148,3 +148,15 @@ print(f"DistilBERT tokenizer: {distil_tokens}")
 15. Grammatical correctness
 > Text classification is the process of labeling an input text into a pre-defined category. This can take the form of sentiment - positive or negative - spam detection - spam or not spam - and even grammatical errors.
 
+```
+# Create a pipeline
+classifier = pipeline(
+  task="text-classification", 
+  model="abdulmatinomotoso/English_Grammar_Checker"
+)
+
+# Predict classification
+output = classifier("I will walk dog")
+
+print(output)
+```
