@@ -68,3 +68,4 @@ example = filtered.select(range(1))
 
 print(example[0]["text"])
 ```
+10. Getting started with pipelines
