@@ -384,3 +384,4 @@ open_pred = open_asr(example["audio"]["array"])["text"].lower()
 print("META:", meta_pred)
 print("OPENAI:", open_pred)
 ```
+29. Word error rate
