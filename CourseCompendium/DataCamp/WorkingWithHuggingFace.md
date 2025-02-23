@@ -354,3 +354,4 @@ new_durations_list = filtered_dataset["duration"]
 print("Old duration:", np.mean(old_durations_list))
 print("New duration:", np.mean(new_durations_list))
 ```
+27. Classifying audio files
