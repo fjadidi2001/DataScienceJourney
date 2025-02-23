@@ -397,3 +397,19 @@ open_wer = wer.compute(predictions=[open_pred], references=[true_sentence])
 print(f"The WER for the Meta model is {meta_wer} and for the OpenAI model is {open_wer}")
 ```
 30. Iterating over a dataset
+```
+# Create the data function
+def data(n=3):
+    for i in range(n):
+        yield english[i]["audio"]["array"], english[i]["sentence"].lower()
+        
+# Predict the text for the audio file with both models
+output = []
+for audio, sentence in data():
+    meta_pred = meta_asr(audio)["text"].lower()
+    open_pred = open_asr(audio)["text"].lower()
+    # Append to output list
+    output.append({"sentence": sentence, "metaPred": meta_pred, "openPred": open_pred})
+
+output_df = pd.DataFrame(output)
+```
