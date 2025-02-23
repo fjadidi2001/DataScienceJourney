@@ -279,3 +279,8 @@ model.fit(games_tourney_train[['home', 'seed_diff', 'pred']],
           verbose=True)
 ```
 24. Evaluate the model
+```
+# Evaluate the model on the games_tourney_test dataset
+print(model.evaluate(games_tourney_test[['home', 'seed_diff', 'prediction']],
+               games_tourney_test['score_diff'], verbose=False))
+```
