@@ -72,6 +72,7 @@ model.fit(games_tourney_train['seed_diff'], games_tourney_train['score_diff'],
           validation_split=0.10,
           verbose=True)
 ```
+8. Evaluate the model on a test set
 
 ```
 # Load the X variable from the test data
