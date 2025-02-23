@@ -121,3 +121,13 @@ strength_lookup_flat = Flatten()(strength_lookup)
 team_strength_model = Model(teamid_in, strength_lookup_flat, name='Team-Strength-Model')
 ```
 11. Defining two inputs
+```
+# Load the input layer from tensorflow.keras.layers
+from tensorflow.keras.layers import Input
+
+# Input layer for team 1
+team_in_1 = Input(shape=(1,))
+
+# Separate input layer for team 2
+team_in_2 = Input(shape=(1,))
+```
