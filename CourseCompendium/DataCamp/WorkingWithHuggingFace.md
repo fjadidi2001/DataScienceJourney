@@ -127,3 +127,4 @@ output = tokenizer.backend_tokenizer.normalizer.normalize_str(input_string)
 
 print(output)
 ```
+14. Comparing tokenizer output
