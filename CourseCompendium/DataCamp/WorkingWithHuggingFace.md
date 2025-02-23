@@ -453,3 +453,19 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 dataset = dataset.map(lambda row: tokenizer(row["text"], padding=True, max_length=512, truncation=True), keep_in_memory=True)
 ```
 32. Building the trainer
+```
+# Create training arguments
+training_args = TrainingArguments(output_dir="./results")
+
+# Create the trainer
+trainer = Trainer(
+    model=model, 
+    args=training_args, 
+    train_dataset=training_data, 
+    eval_dataset=testing_data
+)
+
+# Start the trainer
+trainer.train()
+
+```
