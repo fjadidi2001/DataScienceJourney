@@ -183,3 +183,4 @@ output = classifier(text, candidate_labels)
 
 print(f"Top Label: {output['labels'][0]} with score: {output['scores'][0]}")
 ```
+18. Summarizing long text
