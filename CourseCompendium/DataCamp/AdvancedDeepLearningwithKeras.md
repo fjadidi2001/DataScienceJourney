@@ -335,3 +335,4 @@ output_tensor_2 = Dense(1, activation='sigmoid', use_bias=False)(output_tensor_1
 # Create a model with 2 outputs
 model = Model(input_tensor, [output_tensor_1, output_tensor_2])
 ```
+30. Compile and fit the model
