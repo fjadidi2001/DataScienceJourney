@@ -114,3 +114,4 @@ bert_output = bert_pipeline(input_text)
 print(f"Bert Output: {bert_output[0]['label']}")
 print(f"Distil Output: {distil_output[0]['label']}")
 ```
+13. Normalizing text
