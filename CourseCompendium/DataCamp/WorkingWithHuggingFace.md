@@ -436,3 +436,4 @@ openWER = wer.compute(predictions=output_df["openPred"], references=output_df["s
 # Print the WER
 print(f"The WER for the meta model is {metaWER} and for the open model is {openWER}")
 ```
+31. Preparing a dataset
