@@ -452,3 +452,4 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 # Use tokenizer on text
 dataset = dataset.map(lambda row: tokenizer(row["text"], padding=True, max_length=512, truncation=True), keep_in_memory=True)
 ```
+32. Building the trainer
