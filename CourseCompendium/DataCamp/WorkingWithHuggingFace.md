@@ -469,3 +469,4 @@ trainer = Trainer(
 trainer.train()
 
 ```
+33. Using the fine-tuned model
