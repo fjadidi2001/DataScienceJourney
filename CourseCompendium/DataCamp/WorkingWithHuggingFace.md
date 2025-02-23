@@ -59,3 +59,12 @@ wikipedia = load_dataset("wikimedia/wikipedia", language="20231101.en", split="t
 print(f"The length of the dataset is {len(wikipedia)}")
 ```
 9. Manipulating datasets
+```
+# Filter the documents
+filtered = wikipedia.filter(lambda row: "football" in row["text"])
+
+# Create a sample dataset
+example = filtered.select(range(1))
+
+print(example[0]["text"])
+```
