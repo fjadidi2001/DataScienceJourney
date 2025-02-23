@@ -160,3 +160,4 @@ output = classifier("I will walk dog")
 
 print(output)
 ```
+16. Question Natural Language Inference
