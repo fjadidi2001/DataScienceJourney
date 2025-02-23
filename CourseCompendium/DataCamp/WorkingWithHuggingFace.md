@@ -523,3 +523,20 @@ print(caption[0])
 > Embeddings are a fantastic tool for making recommendation systems more personalized and relevant to the user
 
 36. Generate embeddings for a sentence
+```
+from sentence_transformers import SentenceTransformer
+
+# Create the first embedding model
+embedder1 = SentenceTransformer("all-MiniLM-L6-v2")
+
+# Embed the sentence
+sentence = "This is an example sentence."
+embedding1 = embedder1.encode([sentence])
+
+# Create and use the second embedding model
+embedder2 = SentenceTransformer("sentence-transformers/paraphrase-albert-small-v2")
+embedding2 = embedder2.encode([sentence])
+
+# Compare the shapes
+print(embedding1.shape == embedding2.shape)
+```
