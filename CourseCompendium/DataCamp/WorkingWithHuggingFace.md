@@ -245,3 +245,13 @@ for i in range(0,3):
 ```
 
 21. Processing image data
+```
+# Create the numpy array
+image_array = np.array(original_image)
+
+# Crop the center of the image
+cropped_image = image_transforms.center_crop(image=image_array, size=(200, 200))
+
+imgplot = plt.imshow(cropped_image)
+plt.show()
+```
