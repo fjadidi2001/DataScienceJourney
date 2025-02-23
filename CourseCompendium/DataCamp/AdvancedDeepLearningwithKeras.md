@@ -350,3 +350,19 @@ model.fit(games_tourney_train[['seed_diff', 'pred']],
           verbose=True,
           batch_size=16384)
 ```
+31. Inspect the model (II)
+```
+# Import the sigmoid function from scipy
+from scipy.special import expit as sigmoid
+
+# Weight from the model
+weight = 0.14
+
+# Print the approximate win probability predicted close game
+print(sigmoid(1 * weight))
+
+# Print the approximate win probability predicted blowout game
+print(sigmoid(10 * weight))
+```
+
+32. Evaluate on new data with two metrics
