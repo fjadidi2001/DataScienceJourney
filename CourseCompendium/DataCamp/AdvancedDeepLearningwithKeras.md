@@ -24,6 +24,9 @@ output_tensor = output_layer(input_tensor)
 # Load layers
 from tensorflow.keras.layers import Input, Dense
 
+4. Build a model
+
+
 
 # Input layer
 input_tensor = Input(shape=(1,))
